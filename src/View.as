@@ -4,6 +4,7 @@ package
     import flash.display.DisplayObjectContainer;
     import flash.events.Event;
     import flash.events.MouseEvent;
+    import flash.utils.getTimer;
 
     public class View
     {
@@ -15,6 +16,8 @@ package
             var represents:Object = {};
             represents.x = getPositionX(child);
             represents.y = getPositionY(child);
+            represents.width = getWidth(child);
+            represents.height = getHeight(child);
             if (child is DisplayObjectContainer)
             {
                 var parent:DisplayObjectContainer = DisplayObjectContainer(child);
@@ -38,15 +41,24 @@ package
         /**
          * @param   methodName  and owner avoids JavaScript bind.
          */
-        public static function listen(child:DisplayObjectContainer, methodName:String, owner:*):Boolean
+        public static function listen(child:DisplayObjectContainer, methodName:String, owner:*, eventType:String = null):Boolean
         {
+            if (null == eventType)
+            {
+                eventType = MouseEvent.MOUSE_OVER;
+            }
             var isListening:Boolean = false;
             if (child) 
             {
                 var method:Function = owner[methodName];
-                child.addEventListener(MouseEvent.CLICK, method);
+                child.addEventListener(eventType, method);
             }
             return isListening;
+        }
+
+        public function listenToUpdate(child:DisplayObjectContainer, methodName:String, owner:*):Boolean
+        {
+            return listen(child, methodName, owner, Event.ENTER_FRAME);
         }
 
         public static function currentTarget(event:Event):*
@@ -54,9 +66,24 @@ package
             return event.currentTarget;
         }
 
+        public static function getName(child:*):*
+        {
+            return child.name;
+        }
+
         public static function setVisible(child:DisplayObject, isVisible:Boolean):void
         {
             child.visible = isVisible;
+        }
+
+        public static function getWidth(child:DisplayObject):Number
+        {
+            return child.width;
+        }
+
+        public static function getHeight(child:DisplayObject):Number
+        {
+            return child.height;
         }
 
         public static function getPositionX(child:DisplayObject):Number
@@ -67,6 +94,28 @@ package
         public static function getPositionY(child:DisplayObject):Number
         {
             return child.y;
+        }
+
+        public static function setPositionX(child:DisplayObject, x:Number):void
+        {
+            child.x = x;
+        }
+
+        public static function setPositionY(child:DisplayObject, y:Number):void
+        {
+            child.y = y;
+        }
+
+        public static function getMilliseconds():int
+        {
+            return getTimer();
+        }
+
+        public static function addChild(parent, child, name)
+        {
+            parent.addChild(child);
+            parent[name] = child;
+            child.name = name;
         }
     }
 }

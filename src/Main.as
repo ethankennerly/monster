@@ -6,6 +6,7 @@ package
     public class Main extends Sprite
     {
         private var controller:MonsterController;
+        private var stopwatch:Stopwatch;
 
         public function Main()
         {
@@ -24,6 +25,9 @@ package
             var view:MainScene = new MainScene();
             addChild(view);
             controller = new MonsterController(view);
+            var stopwatch:Stopwatch = new Stopwatch();
+            stopwatch.onUpdate = controller.update;
+            View.listen(this, "update", stopwatch, Event.ENTER_FRAME);
         }
     }
 }

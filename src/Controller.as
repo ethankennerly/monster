@@ -12,13 +12,41 @@ package
             }
         }
 
+        public static function isObject(value:*):Boolean
+        {
+            return "object" === typeof(value);
+        }
+
         /**
          * @param   changes     What is different as nested hashes.
          */
-        public static function visit(parent:*, changes:Object, owner:* = null):void
+        public static function visit(parent:*, changes:Object, boundFunction:Function):void
         {
-            throw new Error("TODO");
+            for (var key:String in changes)
+            {
+                var change:* = changes[key];
+                var child:* = parent[key];
+                child = boundFunction(child, key, change);
+                if (isObject(change))
+                {
+                    visit(child, change, boundFunction);
+                }
+                else
+                {
+                    if ("x" === key)
+                    {
+                        View.setPositionX(parent, change);
+                    }
+                    else if ("y" === key)
+                    {
+                        View.setPositionY(parent, change);
+                    }
+                    else if ("visible" === key)
+                    {
+                        View.setVisible(parent, change);
+                    }
+                }
+            }
         }
-
     }
 }

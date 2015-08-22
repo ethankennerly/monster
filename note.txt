@@ -1,11 +1,17 @@
 Theme:  You are the monster
 
-TODO
+FEATURES
 	Brainstorm.
-	Illiana or hassan plays a physical toy.
-	Outline screenplay.
+	Jennifer plays a physical toy.
 	Wireframe.
+
+TODO
+    Cities grow.
 	First player sees stimuli.
+    Cities only grow on land.
+    Mouse down to drag and destroy more.
+    Notice cities gradually.
+
 
 REFERENCE GAMES
 	Gauntlet reversed
@@ -136,6 +142,11 @@ What would Jennifer want to play?
 
 Sat Aug 22 10:31:33 PDT 2015
 
+Display?
+    Represent?
+        changes?
+            difference?
+                after - before
 How do cities grow?
     On land.
 How to recognize land?
@@ -143,8 +154,3 @@ How to recognize land?
 
 How does land form?
 
-TODO
-    Cities grow.
-    Cities only grow on land.
-    Mouse down to drag and destroy more.
-    Notice cities gradually.
