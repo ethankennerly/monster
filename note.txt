@@ -133,3 +133,18 @@ What would Jennifer want to play?
 	- Manhunt
 	Kirby
 	Bomberman boss battle:  dragon turtle.
+
+Sat Aug 22 10:31:33 PDT 2015
+
+How do cities grow?
+    On land.
+How to recognize land?
+    Read from land rectangles.
+
+How does land form?
+
+TODO
+    Cities grow.
+    Cities only grow on land.
+    Mouse down to drag and destroy more.
+    Notice cities gradually.

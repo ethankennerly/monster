@@ -1,0 +1,45 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440259732"/>
+          <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440261807"/>
+          <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440260118"/>
+          <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440259915"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440265209"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="MainScene" color="#4F80FF" current="true" isSelected="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="MainScene" selected="true">
+                                             <transformationPoint>
+                                                  <Point x="158" y="175.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <persistentData>
+          <PD n="ane.tmp.unzipped.folder" v="/Users/ethan/Library/Caches/TemporaryItems/Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="com.air.sdk.path"/>
+          <PD n="com.adobe.flash.anemoi.output.type" v="ipa"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="4605" publishTime="1440263649" publishDebug="true"/>
+          <PublishItem publishSize="4603" publishTime="1440263591" publishDebug="true"/>
+          <PublishItem publishSize="4604" publishTime="1440263520" publishDebug="true"/>
+          <PublishItem publishSize="992" publishTime="1440261588" publishDebug="true"/>
+          <PublishItem publishSize="991" publishTime="1440261534" publishDebug="true"/>
+          <PublishItem publishSize="662" publishTime="1440261466" publishDebug="true"/>
+          <PublishItem publishSize="661" publishTime="1440261444" publishDebug="true"/>
+          <PublishItem publishSize="661" publishTime="1440261319" publishDebug="true"/>
+          <PublishItem publishSize="660" publishTime="1440261276" publishDebug="true"/>
+     </publishHistory>
+</DOMDocument>
