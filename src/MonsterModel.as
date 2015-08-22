@@ -118,7 +118,8 @@ package
                         if (1 == grid[index]) 
                         {
                             changes[name] = {x: cellWidth * column,
-                                y: cellHeight * row};
+                                y: cellHeight * row,
+                                visible: true};
                         }
                         else
                         {

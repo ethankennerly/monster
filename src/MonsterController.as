@@ -23,7 +23,6 @@ package
         public function select(event:*):void
         {
             model.select(View.getName(View.currentTarget(event)));
-            //- View.setVisible(View.currentTarget(event), false);
         }
 
         internal function update(deltaSeconds:Number):void
@@ -35,7 +34,10 @@ package
 
         internal function createCity(child:*, key:String, change:*):Object
         {
-            if (!child)
+            if (child)
+            {
+            }
+            else
             {
                 child = new City();
                 View.addChild(view, child, key);
