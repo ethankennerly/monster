@@ -7,7 +7,11 @@ package
     {
         internal var cityNames:Array;
         internal var changes:Object;
+        internal var population:int;
         internal var represents:Object;
+        internal var result:int = 0;
+
+        private var vacancy:int;
         private var cellWidth:int;
         private var cellHeight:int;
         private var width:int;
@@ -141,7 +145,36 @@ package
             }
             changes = change(gridPreviously, grid);
             cityNames = Model.keys(changes, "city");
+            win();
             gridPreviously = grid.concat();
+        }
+
+        private function sum(counts:Array):int
+        {
+            var sum:int = 0;
+            for (var c:int = 0; c < counts.length; c++)
+            {
+                sum += counts[c];
+            }
+            return sum;
+        }
+
+        private function win():void
+        {
+            population = sum(grid);
+            vacancy = grid.length - population;
+            if (vacancy <= 0)
+            {
+                result = -1;
+            }
+            else if (population <= 0)
+            {
+                result = 1;
+            }
+            else
+            {
+                result = 0;
+            }
         }
 
         internal function select(name:String):void

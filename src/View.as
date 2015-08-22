@@ -4,6 +4,7 @@ package
     import flash.display.DisplayObjectContainer;
     import flash.events.Event;
     import flash.events.MouseEvent;
+    import flash.text.TextField;
     import flash.utils.getTimer;
 
     public class View
@@ -104,6 +105,11 @@ package
         public static function setPositionY(child:DisplayObject, y:Number):void
         {
             child.y = y;
+        }
+
+        public static function setText(child:TextField, text:String):void
+        {
+            child.text = text;
         }
 
         public static function getMilliseconds():int

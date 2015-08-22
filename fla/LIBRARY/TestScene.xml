@@ -1,46 +1,20 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440284965">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TestScene" itemID="55d8b652-00000011" linkageExportForAS="true" linkageClassName="TestScene" lastModified="1440265810">
   <timeline>
-    <DOMTimeline name="MainScene">
+    <DOMTimeline name="TestScene">
       <layers>
-        <DOMLayer name="help" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="help" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="countText" left="439.55" width="63.45" height="25.5" isSelectable="false" lineType="multiline">
+                <DOMStaticText width="503" height="50" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-111.55" ty="907.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>00000</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMDynamicText>
-                <DOMDynamicText name="text" selected="true" width="503" height="50" isSelectable="false" lineType="multiline">
-                  <matrix>
-                    <Matrix tx="74.45" ty="829.45"/>
+                    <Matrix tx="77.45" ty="883.45"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Mother Nature&#xD;Destroy the humans before they ruin you!</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMDynamicText>
-                <DOMStaticText left="603" width="102" height="22.35" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="-381" ty="907.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>HUMANS</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="20" bitmapSize="400" face="MuseoSans-700" fillColor="#FFFF00"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -49,7 +23,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="colony" color="#9933CC" autoNamed="false">
+        <DOMLayer name="colony" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -61,7 +35,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="City" name="city_1">
+                <DOMSymbolInstance libraryItemName="City" name="city_1" selected="true">
                   <matrix>
                     <Matrix tx="342.45" ty="285.5"/>
                   </matrix>

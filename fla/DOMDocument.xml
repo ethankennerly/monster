@@ -1,10 +1,14 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <fonts>
+          <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
+     </fonts>
      <symbols>
           <Include href="Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440259732"/>
           <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440261807"/>
           <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440260118"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440259915"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440265209"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440284965"/>
+          <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440265810"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -32,14 +36,25 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="4605" publishTime="1440263649" publishDebug="true"/>
-          <PublishItem publishSize="4603" publishTime="1440263591" publishDebug="true"/>
-          <PublishItem publishSize="4604" publishTime="1440263520" publishDebug="true"/>
-          <PublishItem publishSize="992" publishTime="1440261588" publishDebug="true"/>
-          <PublishItem publishSize="991" publishTime="1440261534" publishDebug="true"/>
-          <PublishItem publishSize="662" publishTime="1440261466" publishDebug="true"/>
-          <PublishItem publishSize="661" publishTime="1440261444" publishDebug="true"/>
-          <PublishItem publishSize="661" publishTime="1440261319" publishDebug="true"/>
-          <PublishItem publishSize="660" publishTime="1440261276" publishDebug="true"/>
+          <PublishItem publishSize="7854" publishTime="1440284589" publishDebug="true"/>
+          <PublishItem publishSize="7855" publishTime="1440284541" publishDebug="true"/>
+          <PublishItem publishSize="7847" publishTime="1440284324" publishDebug="true"/>
+          <PublishItem publishSize="7848" publishTime="1440284276" publishDebug="true"/>
+          <PublishItem publishSize="7655" publishTime="1440283931" publishDebug="true"/>
+          <PublishItem publishSize="7655" publishTime="1440283695" publishDebug="true"/>
+          <PublishItem publishSize="7646" publishTime="1440283607" publishDebug="true"/>
+          <PublishItem publishSize="7634" publishTime="1440283543" publishDebug="true"/>
+          <PublishItem publishSize="7635" publishTime="1440283438" publishDebug="true"/>
+          <PublishItem publishSize="7637" publishTime="1440283270" publishDebug="true"/>
+          <PublishItem publishSize="7600" publishTime="1440283077" publishDebug="true"/>
+          <PublishItem publishSize="7599" publishTime="1440282882" publishDebug="true"/>
+          <PublishItem publishSize="7601" publishTime="1440282791" publishDebug="true"/>
+          <PublishItem publishSize="7605" publishTime="1440282577" publishDebug="true"/>
+          <PublishItem publishSize="7605" publishTime="1440282521" publishDebug="true"/>
+          <PublishItem publishSize="7609" publishTime="1440282376" publishDebug="true"/>
+          <PublishItem publishSize="7605" publishTime="1440282322" publishDebug="true"/>
+          <PublishItem publishSize="7605" publishTime="1440282254" publishDebug="true"/>
+          <PublishItem publishSize="7610" publishTime="1440282107" publishDebug="true"/>
+          <PublishItem publishSize="7622" publishTime="1440281918" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

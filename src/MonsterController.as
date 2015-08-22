@@ -25,11 +25,30 @@ package
             model.select(View.getName(View.currentTarget(event)));
         }
 
+        private function updateText(result:int):void
+        {
+            View.setText(view.countText, model.population.toString());
+            if (result != 0)
+            {
+                var text:String;
+                if (result == 1) 
+                {
+                    text = "The infection has been obliterated.";
+                }
+                else
+                {
+                    text = "Humans have domesticated the entire planet.";
+                }
+                View.setText(view.text, text);
+            }
+        }
+
         internal function update(deltaSeconds:Number):void
         {
             model.update(deltaSeconds);
             Controller.visit(view, model.changes, createCity);
             Controller.listenToChildren(view, model.cityNames, "select", this);
+            updateText(model.result);
         }
 
         internal function createCity(child:*, key:String, change:*):Object
