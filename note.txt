@@ -1,0 +1,135 @@
+Theme:  You are the monster
+
+TODO
+	Brainstorm.
+	Illiana or hassan plays a physical toy.
+	Outline screenplay.
+	Wireframe.
+	First player sees stimuli.
+
+REFERENCE GAMES
+	Gauntlet reversed
+	Traps
+	Dragon
+	Altered Beast as a vampire:  Bat, Vampire, Wolf.
+
+REFERENCE STORIES
+	Batman:  Harvey Dent.
+	Grendel.
+	https://en.wikipedia.org/wiki/Monster
+
+"Time management is the most important skill in any game jam"
+
+What would Jennifer want to play?
+
+	Planet.  Civilization appears in green.  Smash it.  Planet rotates.
+	Populous god game.  Civilization pops up.  You sink the ships.  You level up.
+		????? understand goal, interaction????
+		???? how much animation, how much simulation ?
+		??? gestures
+		?? then what
+		? generate map
+		level 1:  earth
+		Smash.  Hear scream.
+		tap:  lightning
+		swipe:  earthquake, tsunami in water.  flick a fire or tornado.
+		swirl:  tornado, vortex in water (typhoon).  whirlpool
+		double-tap:  sinkhole
+		bleck:  repeat pattern
+		hold finger:  info on populous.  or no text at all.
+		grow over time.  leave it alone.  real-time.  
+		character recognition:  populus, okami
+		atlantis
+		planet rotating with sunlit and darkside.  
+			see underwater.
+		delayed gratification:  city grows.  smash it:  bigger destruction.  more buildings.  bigger fires.
+			more advanced technology == bigger explosion
+				fire
+				gunpowder
+				hydroelectric dam:  flood.
+				toxic waste
+				nuclear power
+			arms race to advance tech
+		civilization that grows slowly and gradually.
+		pinch zoom in.  search for life.
+		google maps.  
+		cataclysm.  cataclysmic
+	Interview with a Vampire:  
+	Vampire invites hosts to dinner.
+		???? Dialoge what?  how much?????
+		Three inputs:  Disprove.  Doubt.  Trust.
+			Swipe left:  Disprove, Swipe Down:  Doubt.  Swipe right:  Trust.
+				Buttons.
+		3 Photos.  
+			1 normal
+			1 priest
+			1 goth
+		vampire specific dating guide
+		vampire survival guide
+		who am i?  which characcter am i?
+		Dialogue is text message.
+		App:  If meet, then resolve.
+		First date.
+		First scene:  Public scene.  Private chateau.
+		Trustworthy human hosts.
+		Abhorrent human priests or werewolves, ghostbusters.
+		Dialogue.
+			Dramatic.  
+			Every exchange advances the story.
+		Branches
+			Collapsing items.
+			Menu
+			Composite:  Radix:  111..333.  Combination.
+				1	1	1
+				2	2	2
+				3	3	3
+		Portraits.
+			Microexpression:  flash another expression.
+		Probing for information.
+		Endgame:
+			Be attacked
+			Attack
+				Bite neck
+					Be stabbed by stake in the heart
+					
+		Basic emotion in a portrait
+			paperdoll of face parts:  nintendo mii
+		
+	Boggle.  
+	Word Eater:  Anagram Attack in reverse, you are the letters, eating the words that you spell.
+	Behemoth:  Stomp on people.
+	Green earth appears.  
+	People keep attacking me.  
+	Vampire.
+	Shadow of the Collosus
+	katamari damacy
+	Barbarians in Civilization
+	Attack the walls
+	Orcs that attack the walls
+	Sky Serpents:  You are the sky serpent.  Shake off the dwarf.
+	Zombie
+	L.A. Noire:  You are the crimimal escaping discovery.
+	Grand Theft Auto 2.
+	Bank robber.
+	Kraken destroying ships that pass by.
+	Cthulhu.  Lord of the sea.  Gather worshippers and eat them.
+	Dragon:  they come for your gold.  You destroy them.
+	Pac-Man:  you are the ghost
+	Mario vs Turtle:  You are the turtle throwing axes.
+	Lamps at night.  Breathe fire at them.
+	Boss Monster versus Link.
+	Boss Monster versus Ratchet and Clank.
+	Pokemon.  Level up.
+	Monster In My Pocket
+	Mail-order Monster:  Tournament to defeat humans.
+	Spore cell stage, Flow:  eat the player.
+	Rampage:  Smash the city
+	Tower Defense
+	Boss fight in a shoot'em up with the player attacking
+	Dungeon Keeper
+	- Ghost Master
+	- Stubbs the Zombie
+	- The Suffering (technically)
+	- Manhunt
+	Kirby
+	Bomberman boss battle:  dragon turtle.
