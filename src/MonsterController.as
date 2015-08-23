@@ -52,6 +52,11 @@ package
             Controller.listenToChildren(view, model.cityNames, "select", this);
             updateText(model.result);
         }
+       
+        function randomRange(minNum:Number, maxNum:Number):Number 
+        {
+            return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+        }
 
         internal function createCity(child:*, key:String, change:*):Object
         {
@@ -61,6 +66,7 @@ package
             else
             {
                 child = new City();
+                child.gotoAndStop(randomRange(1,child.totalFrames));
                 View.addChild(view, child, key);
             }
             return child;

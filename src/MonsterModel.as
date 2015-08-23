@@ -1,4 +1,4 @@
-package 
+﻿package 
 {
     /**
      * Portable.  Independent of Flash.
