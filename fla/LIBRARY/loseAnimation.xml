@@ -1,0 +1,201 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="loseAnimation" itemID="55da5792-0000013e" linkageExportForAS="true" linkageClassName="loseAnimation" lastModified="1440372640" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="loseAnimation" currentFrame="11">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#FF800A" locked="true" autoNamed="false" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mask">
+                  <matrix>
+                    <Matrix a="0.162506103515625" d="0.162506103515625" tx="323.1" ty="516.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mask" centerPoint3DX="321.95" centerPoint3DY="514.2">
+                  <matrix>
+                    <Matrix a="19.1222839355469" d="19.1222839355469" tx="323.1" ty="516.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" selected="true">
+                  <matrix>
+                    <Matrix tx="336.05" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" selected="true" centerPoint3DX="336.05" centerPoint3DY="472.85">
+                  <matrix>
+                    <Matrix tx="336.05" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" centerPoint3DX="-303.95" centerPoint3DY="472.85">
+                  <matrix>
+                    <Matrix tx="-303.95" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" centerPoint3DX="-303.95" centerPoint3DY="472.85">
+                  <matrix>
+                    <Matrix tx="-303.95" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background2" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground" centerPoint3DX="960" centerPoint3DY="480">
+                  <matrix>
+                    <Matrix tx="640"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.33" tintColor="#002228"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground" selected="true" centerPoint3DX="320" centerPoint3DY="480">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.33" tintColor="#002228"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground" centerPoint3DX="320" centerPoint3DY="480">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="-1" redMultiplier="0.671875" blueMultiplier="0.671875" greenMultiplier="0.671875" blueOffset="13" greenOffset="11"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background1" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground" centerPoint3DX="320" centerPoint3DY="480">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.33" tintColor="#002228"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/winBackground" centerPoint3DX="-320" centerPoint3DY="480">
+                  <matrix>
+                    <Matrix tx="-640"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.33" tintColor="#002228"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,378 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/winBackground" itemID="55da541a-000000bc" lastModified="1440371748">
+  <timeline>
+    <DOMTimeline name="winBackground">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#435646"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0|12800 0!12800 0|12800 19200!12800 19200|0 19200!0 19200|0 0"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="316.05" ty="377.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="438.1" ty="542.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="245.05" ty="631.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="367.1" ty="797"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="363.1" ty="646.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="485.15" ty="812"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="176.5" ty="489.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="298.55" ty="655"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="438.1" ty="397.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="245.05" ty="486.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="363.1" ty="501.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="176.5" ty="344.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="298.55" ty="509.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="393.6" ty="488.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="200.55" ty="576.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="318.6" ty="591.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="132" ty="434.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="254.05" ty="600.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="324.1" ty="709.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="131.05" ty="798"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="249.1" ty="813"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="62.5" ty="656"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="184.55" ty="821.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="603.2" ty="764"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="410.15" ty="852.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="528.2" ty="867.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="341.6" ty="710.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="463.65" ty="876.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="374.1" ty="358.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="303.1" ty="467.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="421.15" ty="482.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="347.1" ty="469.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="451.65" ty="469.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="421.1" ty="234.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="350.1" ty="343.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="468.15" ty="358.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="403.6" ty="366.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="498.65" ty="345.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="222.05" ty="601.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="157.5" ty="610"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="177.55" ty="691.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="560.15" ty="469.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="493.15" ty="470.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_city_dirt">
+                  <matrix>
+                    <Matrix tx="493.15" ty="434.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
