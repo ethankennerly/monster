@@ -27,7 +27,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="City" name="city_0">
+                <DOMSymbolInstance libraryItemName="Assets/City" name="city_0">
                   <matrix>
                     <Matrix tx="342.45" ty="413.5"/>
                   </matrix>
@@ -35,7 +35,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="City" name="city_1" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/City" name="city_1" selected="true">
                   <matrix>
                     <Matrix tx="342.45" ty="285.5"/>
                   </matrix>
@@ -187,7 +187,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Background">
+                <DOMSymbolInstance libraryItemName="Assets/Background">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>

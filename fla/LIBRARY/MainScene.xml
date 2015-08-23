@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440308372">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440365450" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>00000</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                        <DOMTextAttrs aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#F9E7C7"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -27,7 +27,7 @@
                     <DOMTextRun>
                       <characters>Mother Nature:&#xD;Destroy the humans before they ruin you!</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" size="26" bitmapSize="520" face="Copperplate" fillColor="#C0AD98"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="26" bitmapSize="520" face="Copperplate" fillColor="#E8D5B0"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -43,7 +43,7 @@
                     <DOMTextRun>
                       <characters>humans</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.427450980392157" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.749019607843137" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -56,7 +56,7 @@
                     <DOMTextRun>
                       <characters>00000</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#F9E7C7"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -69,7 +69,7 @@
                     <DOMTextRun>
                       <characters>level</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.427450980392157" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.749019607843137" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -78,18 +78,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="help overlay" color="#9933CC" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="effects" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="effects" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="01_explosion_01" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/01_city_explosion_01">
                   <matrix>
                     <Matrix tx="342.4" ty="413.5"/>
                   </matrix>
@@ -105,7 +98,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="City" name="city_0">
+                <DOMSymbolInstance libraryItemName="Assets/City" name="city_0">
                   <matrix>
                     <Matrix tx="342.45" ty="413.5"/>
                   </matrix>
@@ -113,7 +106,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="City" name="city_1">
+                <DOMSymbolInstance libraryItemName="Assets/City" name="city_1">
                   <matrix>
                     <Matrix tx="486.45" ty="205.5"/>
                   </matrix>
@@ -125,18 +118,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="land" color="#FF800A" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="background" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="background" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Background">
+                <DOMSymbolInstance libraryItemName="Assets/Background">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>

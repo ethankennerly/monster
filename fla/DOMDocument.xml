@@ -1,29 +1,46 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
-          <DOMFolderItem name="FlashAICB Assets" itemID="55d928f0-00000010"/>
-          <DOMFolderItem name="FlashAICB Assets/Layer 3" itemID="55d928f0-00000011"/>
+          <DOMFolderItem name="Assets" itemID="55da1dd5-00000021" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB Assets" itemID="55da34aa-00000046" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB Assets_0" itemID="55da3514-00000053" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB Assets_0/Layer 1" itemID="55da3514-00000054" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB Assets/Layer 1" itemID="55da34aa-00000047" isExpanded="true"/>
+          <DOMFolderItem name="sounds" itemID="55da1df4-00000027" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
           <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
      </fonts>
+     <media>
+          <DOMSoundItem name="sounds/crowd.aiff" itemID="55da34ad-0000004a" sourceExternalFilepath="./LIBRARY/sounds/crowd.aiff" sourceLastImported="1440310919" sourcePlatform="macintosh" externalFileSize="2322376" href="sounds/crowd.aiff" soundDataHRef="M 1 1440357894.dat" format="44kHz 16bit Mono" sampleCount="532479" dataLength="1064958"/>
+          <DOMSoundItem name="sounds/explosion_01.aiff" itemID="55da34ad-0000004b" sourceExternalFilepath="./LIBRARY/sounds/explosion_01.aiff" sourceLastImported="1440357505" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_01.aiff" soundDataHRef="M 2 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
+          <DOMSoundItem name="sounds/explosion_02.aiff" itemID="55da34ad-0000004c" sourceExternalFilepath="./LIBRARY/sounds/explosion_02.aiff" sourceLastImported="1440357551" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_02.aiff" soundDataHRef="M 3 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
+          <DOMSoundItem name="sounds/explosion_03.aiff" itemID="55da34ad-0000004d" sourceExternalFilepath="./LIBRARY/sounds/explosion_03.aiff" sourceLastImported="1440357380" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_03.aiff" soundDataHRef="M 4 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
+          <DOMSoundItem name="sounds/explosion_04.aiff" itemID="55da34ad-0000004e" sourceExternalFilepath="./LIBRARY/sounds/explosion_04.aiff" sourceLastImported="1440357662" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_04.aiff" soundDataHRef="M 5 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
+     </media>
      <symbols>
-          <Include href="01_adobe_01.xml" loadImmediate="false" itemID="55d92ca2-00000045" lastModified="1440304812"/>
-          <Include href="01_dirt.xml" loadImmediate="false" itemID="55d92c9a-0000003f" lastModified="1440296090"/>
-          <Include href="01_explosion_01.xml" itemID="55d95e87-00000050" lastModified="1440312024"/>
-          <Include href="01_explosion_02.xml" loadImmediate="false" itemID="55d95f15-00000054" lastModified="1440309013"/>
-          <Include href="01_path_01.xml" loadImmediate="false" itemID="55d92d78-00000070" lastModified="1440296312"/>
-          <Include href="01_pire_01.xml" loadImmediate="false" itemID="55d92c20-0000002c" lastModified="1440304692"/>
-          <Include href="Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440303772"/>
-          <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440307822"/>
+          <Include href="Assets/01_city_adobe_01.xml" loadImmediate="false" itemID="55da35ec-00000061" lastModified="1440364012"/>
+          <Include href="Assets/01_city_dirt.xml" loadImmediate="false" itemID="55da35f3-00000062" lastModified="1440364019"/>
+          <Include href="Assets/01_city_explosion_01.xml" itemID="55da35fd-00000063" lastModified="1440364029"/>
+          <Include href="Assets/01_city_explosion_02.xml" loadImmediate="false" itemID="55da3601-00000064" lastModified="1440364033"/>
+          <Include href="Assets/01_city_path_01.xml" loadImmediate="false" itemID="55da3604-00000065" lastModified="1440364036"/>
+          <Include href="Assets/01_city_pire_01.xml" loadImmediate="false" itemID="55da3607-00000066" lastModified="1440364039"/>
+          <Include href="Assets/01_forest_bamboo_01.xml" loadImmediate="false" itemID="55da36df-00000070" lastModified="1440364297"/>
+          <Include href="Assets/01_forest_bamboo_02.xml" loadImmediate="false" itemID="55da36aa-0000006c" lastModified="1440364202"/>
+          <Include href="Assets/01_forest_clover.xml" loadImmediate="false" itemID="55da3661-00000068" lastModified="1440364129"/>
+          <Include href="Assets/01_forest_dirt_01.xml" loadImmediate="false" itemID="55da35b5-0000005c" lastModified="1440363957"/>
+          <Include href="Assets/01_forest_tree_01.xml" loadImmediate="false" itemID="55da35be-0000005f" lastModified="1440363966"/>
+          <Include href="Assets/01_forest_tree_02.xml" loadImmediate="false" itemID="55da35c5-00000060" lastModified="1440363973"/>
+          <Include href="Assets/Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440365173"/>
+          <Include href="Assets/City.xml" itemID="55d8a07e-00000059" lastModified="1440307822"/>
+          <Include href="Assets/Forest.xml" itemID="55da3451-00000045" lastModified="1440364912"/>
           <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440289085"/>
-          <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_4.xml" loadImmediate="false" itemID="55d928f0-00000017" lastModified="1440295152"/>
-          <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="55d928f0-00000015" lastModified="1440295152"/>
-          <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_6.xml" loadImmediate="false" itemID="55d928f0-00000013" lastModified="1440295152"/>
-          <Include href="FlashAICB Assets/Layer 3/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="55d928f0-00000019" lastModified="1440296319"/>
+          <Include href="FlashAICB Assets_0/Layer 1/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="55da3514-00000056" lastModified="1440363796"/>
+          <Include href="FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="55da34aa-00000049" lastModified="1440363690"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440308372"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440365450"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440265810"/>
+          <Include href="winAnimation.xml" itemID="55da3b53-00000189" lastModified="1440365395"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">

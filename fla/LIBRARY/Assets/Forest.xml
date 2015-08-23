@@ -1,0 +1,477 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Forest" itemID="55da3451-00000045" linkageExportForAS="true" linkageClassName="Forest" lastModified="1440364912" lastUniqueIdentifier="40">
+  <timeline>
+    <DOMTimeline name="Forest" currentFrame="3">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#990000" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-22.1" ty="15.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-22.1" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-15.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_01">
+                  <matrix>
+                    <Matrix tx="-27.1" ty="10.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-13.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="9.35" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-3.9" ty="22.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix tx="36.35" ty="7.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="-11" ty="-2.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="-13.65" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="-5.95" ty="9.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="42.15" ty="8.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="20.7" ty="-5.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-15.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="-2.9" ty="6.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-26.5" ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="13.3" ty="23.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="36.1" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix tx="-1.85" ty="24.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="-35.3" ty="10.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-39.5" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="-18.1" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="-22.8" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-1.6" y="-4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02" centerPoint3DX="33.95" centerPoint3DY="-4.15">
+                  <matrix>
+                    <Matrix a="-1" tx="33.95" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-1.6" y="-4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="-12" ty="-2.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix tx="10" ty="22.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9" y="-9.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_01">
+                  <matrix>
+                    <Matrix tx="0.2" ty="-1.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-13.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-8" ty="1.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="28.4" ty="9.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-3.4" ty="12.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="19.8" ty="-10.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="0.2" ty="29.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="-25.2" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="-8.4" ty="25.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="21.2" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="5.9" ty="8.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.3" y="-10.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix a="-0.999984741210938" d="-0.999984741210938" tx="-47.25" ty="-6.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9" y="-9.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_01">
+                  <matrix>
+                    <Matrix tx="32" ty="13.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-13.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="-41.2" ty="10.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix tx="-16.2" ty="-6.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="18.8" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_clover">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="-25.4" ty="4.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="3.85" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="11.55" ty="5.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="1.95" ty="13.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="-10.7" ty="10.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.3" y="-10.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_01">
+                  <matrix>
+                    <Matrix tx="-5" ty="17.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.3" y="-10.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_tree_02">
+                  <matrix>
+                    <Matrix tx="-22.2" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix ty="25.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="16.7" ty="-10.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="-5.9" ty="-15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_dirt_01">
+                  <matrix>
+                    <Matrix tx="45.3" ty="4.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/01_forest_bamboo_02">
+                  <matrix>
+                    <Matrix tx="-2.35" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bounds" color="#FFFF00" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-64" ty="-32"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#594A3A" alpha="0.00784313725490196"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!2560 639|1279 0!1279 0|0 640!0 640|1280 1280!1280 1280|2560 639"/>
+                    <Edge cubics="!2560 639(;2560,639 1279,0 1279,0q2560 639 1279 0);"/>
+                    <Edge cubics="!1279 0(;1279,0 0,640 0,640q1279 0 0 640);"/>
+                    <Edge cubics="!0 640(;0,640 1280,1280 1280,1280q0 640 1280 1280);"/>
+                    <Edge cubics="!1280 1280(;1280,1280 2560,639 2560,639q1280 1280 2560 639);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,115 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/01_forest_bamboo_01" itemID="55da36df-00000070" lastModified="1440364297">
+  <timeline>
+    <DOMTimeline name="01_forest_bamboo_01">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1.2" ty="-19.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#7D8973"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 360|0 360!0 360|0 0!0 0|20 0!20 0|20 360"/>
+                    <Edge cubics="!20 360(;20,360 0,360 0,360p20 360 0 360);"/>
+                    <Edge cubics="!0 360(;0,360 0,0 0,0p0 360 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 20,0 20,0p0 0 20 0);"/>
+                    <Edge cubics="!20 0(;20,0 20,360 20,360p20 0 20 360);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1.2" ty="-19.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3D4536"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 60|0 60!0 60|0 40!0 40|20 40!20 40|20 60"/>
+                    <Edge cubics="!20 60(;20,60 0,60 0,60p20 60 0 60);"/>
+                    <Edge cubics="!0 60(0,60;0,60 0,40 0,40p0 60 0 40);"/>
+                    <Edge cubics="!0 40(;0,40 20,40 20,40p0 40 20 40);"/>
+                    <Edge cubics="!20 40(;20,40 20,60 20,60p20 40 20 60);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1.2" ty="-19.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3D4536"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 140|0 140!0 140|0 120!0 120|20 120!20 120|20 140"/>
+                    <Edge cubics="!20 140(;20,140 0,140 0,140p20 140 0 140);"/>
+                    <Edge cubics="!0 140(0,140;0,140 0,120 0,120p0 140 0 120);"/>
+                    <Edge cubics="!0 120(0,120;0,120 20,120 20,120p0 120 20 120);"/>
+                    <Edge cubics="!20 120(20,120;20,120 20,140 20,140p20 120 20 140)20,140;"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1.2" ty="-19.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3D4536"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 220|0 220!0 220|0 200!0 200|20 200!20 200|20 220"/>
+                    <Edge cubics="!20 220(;20,220 0,220 0,220p20 220 0 220);"/>
+                    <Edge cubics="!0 220(;0,220 0,200 0,200p0 220 0 200);"/>
+                    <Edge cubics="!0 200(;0,200 20,200 20,200p0 200 20 200);"/>
+                    <Edge cubics="!20 200(;20,200 20,220 20,220p20 200 20 220);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1.2" ty="-19.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3D4536"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 300|0 300!0 300|0 280!0 280|20 280!20 280|20 300"/>
+                    <Edge cubics="!20 300(;20,300 0,300 0,300p20 300 0 300);"/>
+                    <Edge cubics="!0 300(;0,300 0,280 0,280p0 300 0 280);"/>
+                    <Edge cubics="!0 280(;0,280 20,280 20,280p0 280 20 280);"/>
+                    <Edge cubics="!20 280(;20,280 20,300 20,300p20 280 20 300);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#5D6B50"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!29 -261[34 -271 36 -312!36 -312[27 -307 17 -300!17 -300[-2 -288 -6 -282!-6 -282[-15 -264 1 -254!1 -254[19 -245 29 -261"/>
+                    <Edge cubics="!29 -261(29,-261;34,-271 36,-312 36,-312q29 -261Q34 -271q36 -312);"/>
+                    <Edge cubics="!36 -312(;36,-312 0,-291 -6,-282q36 -312Q27 -307q17 -300Q-2 -288q-6 -282)-6,-282;"/>
+                    <Edge cubics="!-6 -282(-6,-282;-11,-272 -8,-260 1,-254q-6 -282Q-15 -264q1 -254)1,-254;"/>
+                    <Edge cubics="!1 -254(;11,-249 23,-252 29,-261q1 -254Q19 -245q29 -261);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
