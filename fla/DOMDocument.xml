@@ -1,18 +1,20 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
           <DOMFolderItem name="Assets" itemID="55da1dd5-00000021" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB Assets" itemID="55d928f0-00000010"/>
+          <DOMFolderItem name="FlashAICB Assets/Layer 3" itemID="55d928f0-00000011"/>
           <DOMFolderItem name="sounds" itemID="55da1df4-00000027" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
           <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
+          <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
      </fonts>
      <media>
-          <DOMSoundItem name="sounds/crowd.aiff" itemID="55da34ad-0000004a" sourceExternalFilepath="./LIBRARY/sounds/crowd.aiff" sourceLastImported="1440310919" sourcePlatform="macintosh" externalFileSize="2322376" href="sounds/crowd.aiff" soundDataHRef="M 1 1440357894.dat" format="44kHz 16bit Mono" sampleCount="532479" dataLength="1064958"/>
-          <DOMSoundItem name="sounds/explosion_01.aiff" itemID="55da34ad-0000004b" sourceExternalFilepath="./LIBRARY/sounds/explosion_01.aiff" sourceLastImported="1440357505" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_01.aiff" soundDataHRef="M 2 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
-          <DOMSoundItem name="sounds/explosion_02.aiff" itemID="55da34ad-0000004c" sourceExternalFilepath="./LIBRARY/sounds/explosion_02.aiff" sourceLastImported="1440357551" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_02.aiff" soundDataHRef="M 3 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
-          <DOMSoundItem name="sounds/explosion_03.aiff" itemID="55da34ad-0000004d" sourceExternalFilepath="./LIBRARY/sounds/explosion_03.aiff" sourceLastImported="1440357380" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_03.aiff" soundDataHRef="M 4 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
-          <DOMSoundItem name="sounds/explosion_04.aiff" itemID="55da34ad-0000004e" sourceExternalFilepath="./LIBRARY/sounds/explosion_04.aiff" sourceLastImported="1440357662" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_04.aiff" soundDataHRef="M 5 1440357894.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
+          <DOMSoundItem name="sounds/crowd.aiff" itemID="55da3f76-000005e2" linkageExportForAS="true" linkageClassName="crowd" sourceExternalFilepath="./LIBRARY/sounds/crowd.aiff" sourceLastImported="1440353835" sourcePlatform="macintosh" externalFileSize="2322376" href="sounds/crowd.aiff" soundDataHRef="M 5 1440357894.dat" format="44kHz 16bit Mono" sampleCount="532479" dataLength="1064958"/>
+          <DOMSoundItem name="sounds/explosion_01.aiff" itemID="55da3f76-000005e3" linkageExportForAS="true" linkageClassName="explosion_01" sourceExternalFilepath="./LIBRARY/sounds/explosion_01.aiff" sourceLastImported="1440365540" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_01.aiff" soundDataHRef="M 7 1440368262.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
+          <DOMSoundItem name="sounds/explosion_02.aiff" itemID="55da3f76-000005e4" linkageExportForAS="true" linkageClassName="explosion_02" sourceExternalFilepath="./LIBRARY/sounds/explosion_02.aiff" sourceLastImported="1440365540" sourcePlatform="macintosh" externalFileSize="65568" href="sounds/explosion_02.aiff" soundDataHRef="M 8 1440368262.dat" format="11kHz 16bit Stereo" sampleCount="10589" dataLength="42356"/>
+          <DOMSoundItem name="sounds/explosion_03.aiff" itemID="55da3f76-000005e5" linkageExportForAS="true" linkageClassName="explosion_03" sourceExternalFilepath="./LIBRARY/sounds/explosion_03.aiff" sourceLastImported="1440365540" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_03.aiff" soundDataHRef="M 9 1440368262.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
+          <DOMSoundItem name="sounds/explosion_04.aiff" itemID="55da3f76-000005e6" linkageExportForAS="true" linkageClassName="explosion_04" sourceExternalFilepath="./LIBRARY/sounds/explosion_04.aiff" sourceLastImported="1440365540" sourcePlatform="macintosh" externalFileSize="66808" href="sounds/explosion_04.aiff" soundDataHRef="M 10 1440368262.dat" format="11kHz 16bit Stereo" sampleCount="10803" dataLength="43212"/>
      </media>
      <symbols>
           <Include href="Assets/01_city_adobe_01.xml" loadImmediate="false" itemID="55da35ec-00000061" lastModified="1440364012"/>
@@ -28,15 +30,16 @@
           <Include href="Assets/01_forest_tree_01.xml" loadImmediate="false" itemID="55da35be-0000005f" lastModified="1440363966"/>
           <Include href="Assets/01_forest_tree_02.xml" loadImmediate="false" itemID="55da35c5-00000060" lastModified="1440363973"/>
           <Include href="Assets/Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440366984"/>
-          <Include href="Assets/City.xml" itemID="55d8a07e-00000059" lastModified="1440307822"/>
           <Include href="Assets/Forest.xml" itemID="55da3451-00000045" lastModified="1440364912"/>
+          <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440307822"/>
           <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440289085"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440368027"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440368462"/>
           <Include href="mask.xml" loadImmediate="false" itemID="55da4049-000002cd" lastModified="1440366665"/>
+          <Include href="SpawnArea.xml" loadImmediate="false" itemID="55da1020-00000589" lastModified="1440359765"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440265810"/>
           <Include href="win_forest.xml" loadImmediate="false" itemID="55da42ac-00000327" lastModified="1440367437"/>
-          <Include href="winAnimation.xml" itemID="55da3b53-00000189" lastModified="1440367982"/>
+          <Include href="winAnimation.xml" itemID="55da3b53-00000189" lastModified="1440368755"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -328,6 +331,9 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="278445" publishTime="1440368434" publishDebug="true"/>
+          <PublishItem publishSize="278449" publishTime="1440368405" publishDebug="true"/>
+          <PublishItem publishSize="278466" publishTime="1440368362" publishDebug="true"/>
           <PublishItem publishSize="245542" publishTime="1440368077" publishDebug="true"/>
           <PublishItem publishSize="245542" publishTime="1440368049" publishDebug="true"/>
           <PublishItem publishSize="245543" publishTime="1440367988" publishDebug="true"/>
@@ -345,8 +351,5 @@
           <PublishItem publishSize="26809" publishTime="1440310110" publishDebug="true"/>
           <PublishItem publishSize="26807" publishTime="1440310092" publishDebug="true"/>
           <PublishItem publishSize="26655" publishTime="1440310035" publishDebug="true"/>
-          <PublishItem publishSize="26654" publishTime="1440310007" publishDebug="true"/>
-          <PublishItem publishSize="26758" publishTime="1440309970" publishDebug="true"/>
-          <PublishItem publishSize="26743" publishTime="1440309935" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

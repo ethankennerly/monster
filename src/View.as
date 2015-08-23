@@ -2,10 +2,12 @@ package
 {
     import flash.display.DisplayObject;
     import flash.display.DisplayObjectContainer;
+    import flash.display.MovieClip;
     import flash.events.Event;
     import flash.events.MouseEvent;
     import flash.text.TextField;
     import flash.utils.getTimer;
+    import flash.utils.getDefinitionByName;
 
     public class View
     {
@@ -73,6 +75,11 @@ package
             return event.currentTarget;
         }
 
+        public static function getParent(child:DisplayObject):*
+        {
+            return child.parent;
+        }
+
         public static function getName(child:*):*
         {
             return child.name;
@@ -113,6 +120,17 @@ package
             child.y = y;
         }
 
+        public static function getPosition(child:DisplayObject):Object
+        {
+            return {x: child.x, y: child.y};
+        }
+
+        public static function setPosition(child:DisplayObject, position:*):void
+        {
+            child.x = position.x;
+            child.y = position.y;
+        }
+
         public static function setText(child:TextField, text:String):void
         {
             child.text = text;
@@ -141,6 +159,48 @@ package
                 }
                 parent.removeChild(child);
             }
+        }
+
+        /**
+         * In ActionScript, stop on last frame.
+         */
+        public static function construct(className:String):*
+        {
+            var aClass:Class = Class(getDefinitionByName(className));
+            var instance:* = new aClass();
+            if (instance is MovieClip)
+            {
+                initAnimation(instance);
+            }
+            return instance;
+        }
+
+        public static function initAnimation(instance:MovieClip):void
+        {
+            var index:int = instance.totalFrames - 1;
+            instance.addFrameScript(index, instance.stop);
+            instance.stop();
+        }
+
+        public static function gotoFrame(child:MovieClip, frame:int):void
+        {
+            child.gotoAndStop(frame);
+        }
+
+        public static function start(child:MovieClip):void
+        {
+            child.gotoAndPlay(1);
+        }
+
+        private static var sounds:Object = {};
+
+        public static function playSound(className:String):void
+        {
+            if (!(className in sounds)) 
+            {
+                sounds[className] = construct(className);
+            }
+            sounds[className].play();
         }
     }
 }

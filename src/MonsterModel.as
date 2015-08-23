@@ -7,11 +7,13 @@
     {
         internal var cityNames:Array;
         internal var level:int = 1;
+        internal var length:int;
         internal var changes:Object;
         internal var population:int;
         internal var represents:Object;
         internal var result:int = 0;
         internal var selectCount:int = 0;
+        internal var isWinNow:Boolean;
 
         private var vacancy:int;
         private var cellWidth:int;
@@ -66,6 +68,7 @@
                 var row:int = Math.floor(child.y / cellHeight);
                 grid[row * widthInCells + column] = 1;
             }
+            length = grid.length;
             trace(grid);
             return grid;
         }
@@ -196,7 +199,7 @@
             return changes;
         }
 
-        internal function update(deltaSeconds:Number):void
+        internal function update(deltaSeconds:Number):Boolean
         {
             accumulated += deltaSeconds;
             population = sum(grid);
@@ -216,8 +219,8 @@
             }
             changes = change(gridPreviously, grid);
             cityNames = Model.keys(changes.spawnArea, "city");
-            win();
             gridPreviously = grid.concat();
+            return win();
         }
 
         private function sum(counts:Array):int
@@ -253,7 +256,7 @@
         // 60.0;
         // 40.0;
         // 20.0;
-        private var periodBase:int = 40.0;
+        private var periodBase:int = 120.0;
 
         private function updatePeriod(population:int, vacancy:int):Number
         {
@@ -261,7 +264,8 @@
             if (population <= 0)
             {
                 periodBase = Math.max(5, periodBase * 0.9);
-                period = 2.0 + 5.0 / level;
+                period = 4.0 + 5.0 / level;
+                accumulated = 0;
                 // periodBase * 0.05;
                 level++;
             }
@@ -279,8 +283,9 @@
             return period;
         }
 
-        private function win():void
+        private function win():Boolean
         {
+            isWinNow = result !== 1;
             if (vacancy <= 0)
             {
                 result = -1;
@@ -293,23 +298,36 @@
             {
                 result = 0;
             }
+            isWinNow = isWinNow && result === 1;
+            return isWinNow;
         }
 
-        internal function select(name:String):void
+        internal function select(name:String):Boolean
         {
             var parts:Array = name.split("_");
             var row:int = parseInt(parts[1]);
             var column:int = parseInt(parts[2]);
-            selectCell(row, column);
+            var result:int = selectCell(row, column);
             population = sum(grid);
-            vacancy = grid.length - population;
-            period = updatePeriod(population, vacancy);
+            var isExplosion:Boolean = 1 === result;
+            if (isExplosion && 1 <= population)
+            {
+                vacancy = grid.length - population;
+                period = updatePeriod(population, vacancy);
+            }
+            return isExplosion;
         }
 
-        internal function selectCell(row:int, column:int):void
+        internal function selectCell(row:int, column:int):int
         {
-            selectCount++;
-            grid[row * widthInCells + column] = 0;
+            var index:int = row * widthInCells + column;
+            var was:int = grid[index];
+            if (1 == was)
+            {
+                selectCount++;
+                grid[index] = 0;
+            }
+            return was;
         }
     }
 }
