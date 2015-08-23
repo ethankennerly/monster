@@ -38,7 +38,7 @@
           <Include href="dust.xml" loadImmediate="false" itemID="55da5c1c-000001b8" lastModified="1440373844"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
           <Include href="loseAnimation.xml" itemID="55da5792-0000013e" lastModified="1440374133"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440373388"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440374179"/>
           <Include href="mask.xml" loadImmediate="false" itemID="55da4049-000002cd" lastModified="1440366665"/>
           <Include href="SpawnArea.xml" loadImmediate="false" itemID="55da1020-00000589" lastModified="1440359765"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440373252"/>

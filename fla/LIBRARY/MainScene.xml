@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440373388" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440374179" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
@@ -138,7 +138,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="lose" color="#9933CC" current="true" isSelected="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="lose" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
