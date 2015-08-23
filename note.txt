@@ -4,10 +4,23 @@ FEATURES
 	Brainstorm.
 	Jennifer plays a physical toy.
 	Wireframe.
+    Cities grow.
+    Torri expects isometric grid.
 
 TODO
-    Cities grow.
+    Alan expects to understand what the humans are.  (+Mark)
+    Alan expects to understand can draw instead of tap.
+    Mark expects to speed up spawn rate at higher level even when more humans.
+    Mark expects win and lose animation.
+    Mark expects to fix one count per kill.
+    Torri expects to vibrate phone.
+    Torri expects separate frame for each city.
+    Alan expects more difficult shapes.
+    Alan expects special shapes at higher levels.
 	First player sees stimuli.
+    No gray squares.  Torri sees WIN animation!
+    Read total count of humans killed.
+    stats at top of screen.
     Cities only grow on land.
     Mouse down to drag and destroy more.
     Notice cities gradually.
@@ -154,3 +167,21 @@ How to recognize land?
 
 How does land form?
 
+Sat Aug 22 18:48:33 PDT 2015
+
+
+Torri expects isometric grid.
+    Represent grid with offsets:  
+        Expand:  Neighbor is up and down, up-left and down-left (if even), up-right, down-right (if odd).
+        Layout each odd indexed row with an offset right.
+            2 2 2
+             1 1 3
+            2 0 2
+             1 1 3
+
+    Rotate the grid.
+         2
+        212
+       21012
+        212
+         2
