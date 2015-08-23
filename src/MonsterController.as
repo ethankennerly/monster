@@ -7,23 +7,44 @@ package
     {
         private var model:MonsterModel;
         private var view:*;
+        private var classNameCounts:Object;
+        private var pools:Object;
+        private var explosionSoundCount:int = 4;
 
         public function MonsterController(view:*)
         {
             this.view = view;
-            this.model = new MonsterModel();
-            this.model.represent(View.represent(view));
+            model = new MonsterModel();
+            model.represent(View.represent(view));
+            classNameCounts = {
+                "City": model.length,
+                "Explosion": model.length
+            }
+            pools = Pool.construct(View.construct, classNameCounts);
             for (var c:int = 0; c < model.cityNames.length; c++)
             {
                 var name:String = model.cityNames[c];
                 View.removeChild(view.spawnArea[name]);
                 // View.setVisible(view.spawnArea[name], false);
             }
+            View.initAnimation(view.win);
         }
 
         public function select(event:*):void
         {
-            model.select(View.getName(View.currentTarget(event)));
+            var target:* = View.currentTarget(event);
+            var isExplosion:Boolean = model.select(View.getName(target));
+            if (isExplosion)
+            {
+                var index:int = pools["Explosion"].index;
+                var explosion:* = pools["Explosion"].next();
+                var parent:* = View.getParent(target);
+                View.addChild(parent, explosion, "explosion_" + index);
+                View.setPosition(explosion, View.getPosition(target));
+                View.start(explosion);
+                var countingNumber:int = Math.floor(Math.random() * explosionSoundCount) + 1;
+                View.playSound("explosion_0" + countingNumber);
+            }
         }
 
         private function updateText(result:int):void
@@ -48,6 +69,10 @@ package
         internal function update(deltaSeconds:Number):void
         {
             model.update(deltaSeconds);
+            if (model.isWinNow)
+            {
+                View.start(view.win);
+            }
             Controller.visit(view, model.changes, createCity);
             updateText(model.result);
         }
@@ -69,8 +94,8 @@ package
             {
                 if (Controller.isObject(change) && change.x && key.indexOf("city") === 0)
                 {
-                    child = new City();
-                    child.gotoAndStop(randomRange(1, child.totalFrames));
+                    child = pools["City"].next();
+                    View.gotoFrame(child, randomRange(1, child.totalFrames));
                     var parent = view.spawnArea;
                     View.addChild(parent, child, key);
                     View.listenToOverAndDown(child, "select", this);

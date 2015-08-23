@@ -24,9 +24,9 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#FFFFCC" alpha="0.168627450980392"/>
