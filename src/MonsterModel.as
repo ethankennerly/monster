@@ -199,19 +199,24 @@
             return changes;
         }
 
-        internal function update(deltaSeconds:Number):Boolean
+        internal function update(deltaSeconds:Number):void
         {
             accumulated += deltaSeconds;
             population = sum(grid);
             vacancy = grid.length - population;
+            win();
             if (period <= accumulated) 
             {
                 accumulated = 0;
                 if (1 <= selectCount)
                 {
                     grid = grow(grid);
-                    if (population <= 3) 
+                    if (population <= 2) 
                     {
+                        if (population <= 0)
+                        {
+                            level++;
+                        }
                         randomlyPlace(grid);
                     }
                 }
@@ -220,7 +225,6 @@
             changes = change(gridPreviously, grid);
             cityNames = Model.keys(changes.spawnArea, "city");
             gridPreviously = grid.concat();
-            return win();
         }
 
         private function sum(counts:Array):int
@@ -233,7 +237,7 @@
             return sum;
         }
 
-        private var startingPlaces:int = 2; 
+        private var startingPlaces:Number = 2; 
         // 2;
 
         /**
@@ -247,7 +251,8 @@
                 var index:int = Math.floor(Math.random() * (grid.length - 4)) + 2;
                 grid[index] = 1;
             }
-            // startingPlaces++;
+            startingPlaces += 0.125;
+            // 0.25;
         }
 
         // 120.0;
@@ -264,10 +269,9 @@
             if (population <= 0)
             {
                 periodBase = Math.max(5, periodBase * 0.9);
-                period = 4.0 + 5.0 / level;
+                period = 2.0 + 3.0 / level;
                 accumulated = 0;
                 // periodBase * 0.05;
-                level++;
             }
             else if (1 <= vacancy)
             {
@@ -310,7 +314,7 @@
             var result:int = selectCell(row, column);
             population = sum(grid);
             var isExplosion:Boolean = 1 === result;
-            if (isExplosion && 1 <= population)
+            if (isExplosion && 0 <= population)
             {
                 vacancy = grid.length - population;
                 period = updatePeriod(population, vacancy);
