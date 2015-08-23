@@ -16,8 +16,8 @@ package
             for (var c:int = 0; c < model.cityNames.length; c++)
             {
                 var name:String = model.cityNames[c];
-                View.setVisible(view[name], false);
-                View.setPositionX(view[name], -320);
+                View.removeChild(view.spawnArea[name]);
+                // View.setVisible(view.spawnArea[name], false);
             }
         }
 
@@ -49,7 +49,6 @@ package
         {
             model.update(deltaSeconds);
             Controller.visit(view, model.changes, createCity);
-            Controller.listenToChildren(view, model.cityNames, "select", this);
             updateText(model.result);
         }
        
@@ -58,6 +57,9 @@ package
             return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
         }
 
+        /**
+         * Would be more flexible to add child to whichever parent.
+         */
         internal function createCity(child:*, key:String, change:*):Object
         {
             if (child)
@@ -65,9 +67,14 @@ package
             }
             else
             {
-                child = new City();
-                child.gotoAndStop(randomRange(1,child.totalFrames));
-                View.addChild(view, child, key);
+                if (Controller.isObject(change) && change.x && key.indexOf("city") === 0)
+                {
+                    child = new City();
+                    child.gotoAndStop(randomRange(1, child.totalFrames));
+                    var parent = view.spawnArea;
+                    View.addChild(parent, child, key);
+                    View.listenToOverAndDown(child, "select", this);
+                }
             }
             return child;
         }

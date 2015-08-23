@@ -8,11 +8,22 @@ FEATURES
     Torri expects isometric grid.
 
 TODO
+    Jennifer may expect to fit into screen.
+    Kill animation
     Alan expects to understand what the humans are.  (+Mark)
     Alan expects to understand can draw instead of tap.
     Mark expects to speed up spawn rate at higher level even when more humans.
     Mark expects win and lose animation.
     Mark expects to fix one count per kill.
+    Sound on kill
+    Forest tiles to defend:  Tap turns forest to desert.  
+    Loop of shouting, that increases volume with kill frequency.
+    Melody on kill
+    Draw animation quake
+    Some cities blow up adjacent
+    Spawn one at a time
+    Grow animation
+    Faint alpha
     Torri expects to vibrate phone.
     Torri expects separate frame for each city.
     Alan expects more difficult shapes.
@@ -185,3 +196,9 @@ Torri expects isometric grid.
        21012
         212
          2
+
+
+Sun Aug 23 11:26:46 PDT 2015
+    Jennifer may expect to fit into screen.
+
+From center.  Origin at center, so left and right of 0.  Up and down of 0.

@@ -1,0 +1,169 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440355906">
+  <timeline>
+    <DOMTimeline name="MainScene">
+      <layers>
+        <DOMLayer name="help" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="countText" left="439.55" width="119.5" height="66.7" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-263.75" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="text" left="-38.2" width="598.9" height="95.05" isSelectable="false" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="58.75" ty="853.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mother Nature:&#xD;Destroy the humans before they ruin you!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="26" bitmapSize="520" face="Copperplate" fillColor="#C0AD98"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="12" blurY="12" color="#000000" quality="3" isEnabled="false"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMStaticText left="603" width="158.8" height="32.35" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-594.5" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>humans</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.427450980392157" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText name="levelText" left="384.9" width="118.1" height="66.7" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="111.75" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMStaticText left="603" width="102" height="32.35" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-194.55" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>level</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.427450980392157" size="32" bitmapSize="640" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="effects" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="01_explosion_01">
+                  <matrix>
+                    <Matrix tx="342.4" ty="413.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="colony" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="spawnArea" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SpawnArea" name="spawnArea" selected="true">
+                  <matrix>
+                    <Matrix tx="17.5" ty="144.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="land" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Background">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="9.6" ty="8.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="9.6" ty="843.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

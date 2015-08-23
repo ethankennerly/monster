@@ -1,0 +1,202 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TestScene" itemID="55d8b652-00000011" linkageExportForAS="true" linkageClassName="TestScene" lastModified="1440265810">
+  <timeline>
+    <DOMTimeline name="TestScene">
+      <layers>
+        <DOMLayer name="help" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="503" height="50" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="77.45" ty="883.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mother Nature&#xD;Destroy the humans before they ruin you!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="20" bitmapSize="400" face="MuseoSans-700" fillColor="#FFFF00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="colony" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="City" name="city_0">
+                  <matrix>
+                    <Matrix tx="342.45" ty="413.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="City" name="city_1" selected="true">
+                  <matrix>
+                    <Matrix tx="342.45" ty="285.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="land" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="390.45" ty="365.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="262.45" ty="237.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="390.45" ty="237.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="518.45" ty="493.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="262.45" ty="493.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134.45" ty="493.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="262.45" ty="621.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="262.45" ty="743.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="518.45" ty="237.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="518.45" ty="365.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="390.45" ty="109.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134.45" ty="109.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="390.45" ty="621.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="390.45" ty="743.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="262.45" ty="871.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="134.45" ty="621.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Background">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

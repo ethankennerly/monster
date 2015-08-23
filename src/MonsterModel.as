@@ -37,8 +37,8 @@
             // 0.5;
             // 1.0; 
             this.cellHeight = Math.ceil(cellHeight * isometricHeightMultiplier);
-            widthInCells = Math.floor(width / cellWidth) - 2;
-            heightInCells = Math.floor(height / cellHeight) - 2;
+            widthInCells = Math.floor(width / cellWidth) - 1;
+            heightInCells = Math.floor(height / cellHeight);
             grid.length = 0;
             for (var row:int = 0; row < heightInCells; row++)
             {
@@ -57,7 +57,7 @@
             for (var c:int = 0; c < cityNames.length; c++)
             {
                 var name:String = cityNames[c];
-                var child:* = represents[name];
+                var child:* = represents.spawnArea[name];
                 if (0 == grid.length) {
                     initGrid(grid, child.width, child.height);
                 }
@@ -72,8 +72,12 @@
         internal function represent(represents:Object):void
         {
             this.represents = represents;
-            cityNames = Model.keys(represents, "city");
+            cityNames = Model.keys(represents.spawnArea, "city");
             grid = toGrid(represents, cityNames);
+            if (sum(grid) <= 0)
+            {
+                randomlyPlace(grid);
+            }
         }
 
         /**
@@ -162,22 +166,28 @@
         private function change(gridPreviously:Array, grid:Array):Object
         {
             var changes:Object = {};
+            var count:int = 0;
             for (var row:int = 0; row < heightInCells; row++)
             {
                 for (var column:int = 0; column < widthInCells; column++)
                 {
                     var index:int = row * widthInCells + column;
                     if (grid[index] !== gridPreviously[index]) {
+                        if (null == changes.spawnArea)
+                        {
+                            changes.spawnArea = {};
+                        }
                         var name:String = "city_" + row + "_" + column;
+                        count++;
                         if (1 == grid[index]) 
                         {
-                            changes[name] = {x: cellWidth * column + cellWidth * 1.5 + offsetWidth(row),
-                                y: cellHeight * row + cellHeight * 1.5,
+                            changes.spawnArea[name] = {x: cellWidth * column + cellWidth * 0.5 + offsetWidth(row),
+                                y: cellHeight * row + cellHeight * 0.5,
                                 visible: true};
                         }
                         else
                         {
-                            changes[name] = {visible: false};
+                            changes.spawnArea[name] = {visible: false};
                         }
                     }
                 }
@@ -195,16 +205,16 @@
                 accumulated = 0;
                 if (1 <= selectCount)
                 {
+                    grid = grow(grid);
                     if (population <= 3) 
                     {
                         randomlyPlace(grid);
                     }
-                    grid = grow(grid);
                 }
                 period = updatePeriod(population, vacancy);
             }
             changes = change(gridPreviously, grid);
-            cityNames = Model.keys(changes, "city");
+            cityNames = Model.keys(changes.spawnArea, "city");
             win();
             gridPreviously = grid.concat();
         }
@@ -289,6 +299,9 @@
             var row:int = parseInt(parts[1]);
             var column:int = parseInt(parts[2]);
             selectCell(row, column);
+            population = sum(grid);
+            vacancy = grid.length - population;
+            period = updatePeriod(population, vacancy);
         }
 
         internal function selectCell(row:int, column:int):void

@@ -14,11 +14,14 @@ package
         public static function keys(represents:Object, prefix:String=""):Array
         {
             var childNames:Array = [];
-            for (var name:String in represents)
+            if (represents)
             {
-                if (0 === name.indexOf(prefix)) 
+                for (var name:String in represents)
                 {
-                    childNames.push(name);
+                    if (0 === name.indexOf(prefix)) 
+                    {
+                        childNames.push(name);
+                    }
                 }
             }
             return childNames;

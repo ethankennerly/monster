@@ -62,6 +62,12 @@ package
             return listen(child, methodName, owner, Event.ENTER_FRAME);
         }
 
+        public static function listenToOverAndDown(child:DisplayObjectContainer, methodName:String, owner:*):Boolean
+        {
+            return View.listen(child, methodName, owner)
+                && View.listen(child, methodName, owner, MouseEvent.MOUSE_DOWN);
+        }
+
         public static function currentTarget(event:Event):*
         {
             return event.currentTarget;
@@ -117,11 +123,24 @@ package
             return getTimer();
         }
 
-        public static function addChild(parent, child, name)
+        public static function addChild(parent:DisplayObjectContainer, child:DisplayObject, name:String):void
         {
             parent.addChild(child);
             parent[name] = child;
             child.name = name;
+        }
+
+        public static function removeChild(child:DisplayObject):void
+        {
+            var parent:DisplayObjectContainer = child.parent;
+            if (null != parent)
+            {
+                if (child.name && parent[child.name] === child)
+                {
+                    delete parent[child.name];
+                }
+                parent.removeChild(child);
+            }
         }
     }
 }
