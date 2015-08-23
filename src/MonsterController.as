@@ -17,6 +17,7 @@ package
             {
                 var name:String = model.cityNames[c];
                 View.setVisible(view[name], false);
+                View.setPositionX(view[name], -320);
             }
         }
 
@@ -27,13 +28,14 @@ package
 
         private function updateText(result:int):void
         {
-            View.setText(view.countText, model.population.toString());
+            View.setText(view.countText, model.selectCount.toString());
+            View.setText(view.levelText, model.level.toString());
             if (result != 0)
             {
                 var text:String;
                 if (result == 1) 
                 {
-                    text = "The infection has been obliterated.";
+                    text = "YOU WIN!  Humans have been obliterated ... for now.";
                 }
                 else
                 {
