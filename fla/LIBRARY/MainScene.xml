@@ -82,7 +82,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="colony" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="colony" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -94,7 +94,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="City" name="city_1" selected="true">
+                <DOMSymbolInstance libraryItemName="City" name="city_1">
                   <matrix>
                     <Matrix tx="486.45" ty="205.5"/>
                   </matrix>
@@ -113,11 +113,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="background" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="background" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Background">
+                <DOMSymbolInstance libraryItemName="Background" selected="true">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>
