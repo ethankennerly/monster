@@ -51,19 +51,20 @@ package
         {
             View.setText(view.countText, model.selectCount.toString());
             View.setText(view.levelText, model.level.toString());
-            if (result != 0)
+            var text:String;
+            if (result == 1) 
             {
-                var text:String;
-                if (result == 1) 
-                {
-                    text = "YOU WIN!  Humans have been obliterated ... for now.";
-                }
-                else
-                {
-                    text = "Humans have domesticated the entire planet.";
-                }
-                View.setText(view.text, text);
+                text = "YOU WIN!  Humans have been obliterated ... for now.";
             }
+            else if (result == -1)
+            {
+                text = "Humans have domesticated the entire planet.";
+            }
+            else
+            {
+                text = "Mother Nature:\nDestroy all humans before they ruin you!\nDraw to destroy cities.";
+            }
+            View.setText(view.text, text);
         }
 
         internal function update(deltaSeconds:Number):void
