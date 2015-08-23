@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440365450" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440368027" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
@@ -78,6 +78,50 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
+        <DOMLayer name="overlay" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="9.6" ty="8.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 16700|12800 16700!12800 16700|12800 19200!12800 19200|0 19200!0 19200|0 16700"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="win" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="winAnimation" name="win" selected="true">
+                  <transformationPoint>
+                    <Point x="320" y="480"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="effects" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -94,7 +138,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="colony" color="#9933CC" autoNamed="false">
+        <DOMLayer name="colony" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -118,7 +162,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="background" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="background" color="#4F80FF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Forest" itemID="55da3451-00000045" linkageExportForAS="true" linkageClassName="Forest" lastModified="1440364912" lastUniqueIdentifier="40">
   <timeline>
-    <DOMTimeline name="Forest" currentFrame="3">
+    <DOMTimeline name="Forest">
       <layers>
         <DOMLayer name="FlashAICB" color="#990000" current="true" isSelected="true" autoNamed="false">
           <frames>

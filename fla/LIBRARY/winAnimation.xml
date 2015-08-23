@@ -1,73 +1,92 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="winAnimation" itemID="55da3b53-00000189" linkageExportForAS="true" linkageClassName="winAnimation" lastModified="1440365395">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="winAnimation" itemID="55da3b53-00000189" linkageExportForAS="true" linkageClassName="winAnimation" lastModified="1440367982" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="winAnimation">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="FlashAICB" color="#FF800A" locked="true" autoNamed="false" layerType="mask">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Background" selected="true">
+                <DOMSymbolInstance libraryItemName="mask">
+                  <matrix>
+                    <Matrix a="0.162506103515625" d="0.162506103515625" tx="323.1" ty="516.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mask" centerPoint3DX="321.95" centerPoint3DY="514.2">
+                  <matrix>
+                    <Matrix a="19.1222839355469" d="19.1222839355469" tx="323.1" ty="516.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" selected="true">
+                  <matrix>
+                    <Matrix tx="336.05" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="win_forest" centerPoint3DX="336.05" centerPoint3DY="472.85">
+                  <matrix>
+                    <Matrix tx="336.05" ty="472.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Background">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
                 </DOMSymbolInstance>
-                <DOMShape selected="true" isDrawingObject="true">
-                  <matrix>
-                    <Matrix tx="9.6" ty="8.25"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor alpha="0.368627450980392"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
-                  </edges>
-                </DOMShape>
-                <DOMShape selected="true" isDrawingObject="true">
-                  <matrix>
-                    <Matrix tx="9.6" ty="843.25"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor alpha="0.368627450980392"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
-                  </edges>
-                </DOMShape>
-                <DOMSymbolInstance libraryItemName="Assets/Forest" selected="true" symbolType="graphic" loop="single frame">
-                  <matrix>
-                    <Matrix tx="388.85" ty="331"/>
-                  </matrix>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Background" centerPoint3DX="320" centerPoint3DY="480">
                   <transformationPoint>
-                    <Point/>
+                    <Point x="320" y="480"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Forest" selected="true" symbolType="graphic" firstFrame="1" loop="single frame">
-                  <matrix>
-                    <Matrix tx="305.4" ty="298.2"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Forest" selected="true" symbolType="graphic" firstFrame="2" loop="single frame">
-                  <matrix>
-                    <Matrix tx="371.8" ty="234.2"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Forest" selected="true" symbolType="graphic" firstFrame="3" loop="single frame">
-                  <matrix>
-                    <Matrix tx="486.45" ty="298.2"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.33" tintColor="#002228"/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

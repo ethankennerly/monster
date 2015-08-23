@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mask" itemID="55da4049-000002cd" lastModified="1440366665">
+  <timeline>
+    <DOMTimeline name="mask">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-64" ty="-32"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C6C398"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!2561 640[2561 375 2186 187!2186 187[1811 0 1281 0!1281 0[750 0 375 187!375 187[0 375 0 640!0 640[0 905 375 1092!375 1092[751 1280 1281 1280!1281 1280[1811 1280 2186 1092!2186 1092[2561 905 2561 640"/>
+                    <Edge cubics="!2561 640(;2561,286 1987,0 1281,0q2561 640Q2561 375q2186 187Q1811 0q1281 0);"/>
+                    <Edge cubics="!1281 0(;574,0 0,286 0,640q1281 0Q750 0q375 187Q0 375q0 640);"/>
+                    <Edge cubics="!0 640(;0,993 574,1280 1281,1280q0 640Q0 905q375 1092Q751 1280q1281 1280);"/>
+                    <Edge cubics="!1281 1280(;1987,1280 2561,993 2561,640q1281 1280Q1811 1280q2186 1092Q2561 905q2561 640);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
