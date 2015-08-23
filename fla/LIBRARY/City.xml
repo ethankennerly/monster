@@ -1,11 +1,19 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="City" itemID="55d8a07e-00000059" linkageExportForAS="true" linkageClassName="City" lastModified="1440296355" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="City" itemID="55d8a07e-00000059" linkageExportForAS="true" linkageClassName="City" lastModified="1440297573" lastUniqueIdentifier="13">
   <timeline>
     <DOMTimeline name="City">
       <layers>
-        <DOMLayer name="city" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="city" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+                <DOMSymbolInstance libraryItemName="01_path_01">
+                  <matrix>
+                    <Matrix tx="9.4" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="01_dirt">
                   <matrix>
                     <Matrix tx="18.5" ty="-5.5"/>
@@ -32,7 +40,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="01_adobe_01">
                   <matrix>
-                    <Matrix tx="20" ty="6"/>
+                    <Matrix tx="19.1" ty="6"/>
                   </matrix>
                   <transformationPoint>
                     <Point y="-6"/>
@@ -104,11 +112,111 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="01_dirt" centerPoint3DX="18.5" centerPoint3DY="-10.8">
+                  <matrix>
+                    <Matrix tx="18.5" ty="-5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01" centerPoint3DX="3" centerPoint3DY="-10">
+                  <matrix>
+                    <Matrix tx="3" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01" centerPoint3DX="30" centerPoint3DY="-8">
+                  <matrix>
+                    <Matrix tx="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01" centerPoint3DX="20">
+                  <matrix>
+                    <Matrix tx="20" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01" centerPoint3DX="-2" centerPoint3DY="-21">
+                  <matrix>
+                    <Matrix tx="-2" ty="-15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01" centerPoint3DX="-13" centerPoint3DY="-10">
+                  <matrix>
+                    <Matrix tx="-13" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01" centerPoint3DX="-16" centerPoint3DY="4">
+                  <matrix>
+                    <Matrix tx="-16" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01" centerPoint3DX="12" centerPoint3DY="-15">
+                  <matrix>
+                    <Matrix tx="12" ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01" centerPoint3DX="2" centerPoint3DY="12">
+                  <matrix>
+                    <Matrix tx="2" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01" centerPoint3DX="-25" centerPoint3DY="-3">
+                  <matrix>
+                    <Matrix tx="-25" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_dirt" centerPoint3DX="-23" centerPoint3DY="0.7">
+                  <matrix>
+                    <Matrix tx="-23" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_dirt" centerPoint3DX="-22" centerPoint3DY="12.7">
+                  <matrix>
+                    <Matrix tx="-22" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bounds" color="#FFFF00" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="bounds" color="#FFFF00" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>

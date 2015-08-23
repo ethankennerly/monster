@@ -4,22 +4,23 @@
           <DOMFolderItem name="FlashAICB Assets/Layer 3" itemID="55d928f0-00000011"/>
      </folders>
      <fonts>
+          <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
           <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
      </fonts>
      <symbols>
           <Include href="01_adobe_01.xml" loadImmediate="false" itemID="55d92ca2-00000045" lastModified="1440296098"/>
           <Include href="01_dirt.xml" loadImmediate="false" itemID="55d92c9a-0000003f" lastModified="1440296090"/>
           <Include href="01_path_01.xml" loadImmediate="false" itemID="55d92d78-00000070" lastModified="1440296312"/>
-          <Include href="01_pire_01.xml" loadImmediate="false" itemID="55d92c20-0000002c" lastModified="1440295968"/>
+          <Include href="01_pire_01.xml" loadImmediate="false" itemID="55d92c20-0000002c" lastModified="1440297316"/>
           <Include href="Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440295493"/>
-          <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440296355"/>
+          <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440297573"/>
           <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440289085"/>
           <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_4.xml" loadImmediate="false" itemID="55d928f0-00000017" lastModified="1440295152"/>
           <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="55d928f0-00000015" lastModified="1440295152"/>
           <Include href="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_6.xml" loadImmediate="false" itemID="55d928f0-00000013" lastModified="1440295152"/>
           <Include href="FlashAICB Assets/Layer 3/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="55d928f0-00000019" lastModified="1440296319"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440296951"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440297486"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440265810"/>
      </symbols>
      <timelines>
