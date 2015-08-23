@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TestScene" itemID="55d8b652-00000011" linkageExportForAS="true" linkageClassName="TestScene" lastModified="1440265810">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TestScene" itemID="55d8b652-00000011" linkageExportForAS="true" linkageClassName="TestScene" lastModified="1440373252">
   <timeline>
     <DOMTimeline name="TestScene">
       <layers>
@@ -26,24 +26,7 @@
         <DOMLayer name="colony" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/City" name="city_0">
-                  <matrix>
-                    <Matrix tx="342.45" ty="413.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/City" name="city_1" selected="true">
-                  <matrix>
-                    <Matrix tx="342.45" ty="285.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
