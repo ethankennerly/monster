@@ -20,6 +20,7 @@ package
         private var heightInCells:int;
         private var period:Number = 2.0;
         private var accumulated:Number = 0.0;
+        private var selectCount:int = 0;
 
         private var grid:Array = [];
         private var gridPreviously:Array = [];
@@ -32,8 +33,8 @@ package
         {
             this.cellWidth = Math.ceil(cellWidth);
             this.cellHeight = Math.ceil(cellHeight);
-            widthInCells = Math.ceil(width / cellWidth);
-            heightInCells = Math.ceil(height / cellHeight);
+            widthInCells = Math.floor(width / cellWidth);
+            heightInCells = Math.floor(height / cellHeight);
             grid.length = 0;
             for (var row:int = 0; row < heightInCells; row++)
             {
@@ -121,8 +122,8 @@ package
                         var name:String = "city_" + row + "_" + column;
                         if (1 == grid[index]) 
                         {
-                            changes[name] = {x: cellWidth * column,
-                                y: cellHeight * row,
+                            changes[name] = {x: cellWidth * column + cellWidth / 2,
+                                y: cellHeight * row + cellHeight / 2,
                                 visible: true};
                         }
                         else
@@ -141,11 +142,17 @@ package
             if (period <= accumulated) 
             {
                 accumulated -= period;
-                grid = grow(grid);
-                if (population <= 1) 
+                if (1 <= selectCount)
                 {
-                    randomlyPlace(grid);
+                    if (population <= 2) 
+                    {
+                        randomlyPlace(grid);
+                    }
+                    grid = grow(grid);
                 }
+                population = sum(grid);
+                vacancy = grid.length - population;
+                period = updatePeriod(population, vacancy);
             }
             changes = change(gridPreviously, grid);
             cityNames = Model.keys(changes, "city");
@@ -163,7 +170,7 @@ package
             return sum;
         }
 
-        private var startingPlaces:int = 3;
+        private var startingPlaces:int = 2;
 
         /**
          * Slow to keep trying if there were lot of starting places, but there aren't.
@@ -175,27 +182,28 @@ package
                 var index:int = Math.floor(Math.random() * (grid.length - 4)) + 2;
                 grid[index] = 1;
             }
-            startingPlaces++;
+            // startingPlaces++;
         }
 
-        private var periodBase:int = 120.0;
+        // 120.0;
+        // 60.0;
+        // 40.0;
+        // 20.0;
+        private var periodBase:int = 80.0;
 
         private function updatePeriod(population:int, vacancy:int):Number
         {
             var period:Number = 999999.0;
             if (population <= 0)
             {
-                // periodBase = Math.max(10, periodBase - 10);
-                period = 10.0;
+                periodBase = Math.max(10, periodBase - 10);
+                period = periodBase * 0.05;
             }
             else if (1 <= vacancy)
             {
-                // 120.0;
-                // 60.0;
-                // 40.0;
-                // 20.0;
                 var ratio:Number = population / vacancy;
-                var exponent:Number = 0.75;
+                var exponent:Number = 1.0;
+                // 0.75;
                 // 0.25;
                 // 1.0;
                 // 0.25;
@@ -207,9 +215,6 @@ package
 
         private function win():void
         {
-            population = sum(grid);
-            vacancy = grid.length - population;
-            period = updatePeriod(population, vacancy);
             if (vacancy <= 0)
             {
                 result = -1;
@@ -234,6 +239,7 @@ package
 
         internal function selectCell(row:int, column:int):void
         {
+            selectCount++;
             grid[row * widthInCells + column] = 0;
         }
     }
