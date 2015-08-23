@@ -8,8 +8,7 @@ package
             {
                 var name:String = childNames[c];
                 var child:* = view[name];
-                View.listen(child, methodName, owner);
-                View.listen(child, methodName, owner, "mouseDown");
+                View.listenToOverAndDown(child, methodName, owner);
             }
         }
 
