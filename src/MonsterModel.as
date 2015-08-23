@@ -36,8 +36,9 @@
             var isometricHeightMultiplier:Number = 0.5;
             // 0.5;
             // 1.0; 
-            this.cellHeight = Math.ceil(cellHeight * isometricHeightMultiplier);
-            widthInCells = Math.floor(width / cellWidth) - 1;
+            cellHeight = Math.ceil(cellHeight * isometricHeightMultiplier);
+            this.cellHeight = cellHeight;
+            widthInCells = Math.floor(width / cellWidth);
             heightInCells = Math.floor(height / cellHeight);
             grid.length = 0;
             for (var row:int = 0; row < heightInCells; row++)
@@ -52,8 +53,8 @@
 
         private function toGrid(represents:Object, cityNames:Array):Array
         {
-            width = Math.ceil(represents.width);
-            height = Math.ceil(represents.height);
+            width = Math.ceil(represents.spawnArea.width);
+            height = Math.ceil(represents.spawnArea.height);
             for (var c:int = 0; c < cityNames.length; c++)
             {
                 var name:String = cityNames[c];
@@ -247,18 +248,19 @@
         }
 
         // 120.0;
+        // 90.0;
         // 80.0;
         // 60.0;
         // 40.0;
         // 20.0;
-        private var periodBase:int = 90.0;
+        private var periodBase:int = 40.0;
 
         private function updatePeriod(population:int, vacancy:int):Number
         {
             var period:Number = 999999.0;
             if (population <= 0)
             {
-                periodBase = Math.max(10, periodBase * 0.9);
+                periodBase = Math.max(5, periodBase * 0.9);
                 period = 2.0 + 5.0 / level;
                 // periodBase * 0.05;
                 level++;

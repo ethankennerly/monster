@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SpawnArea" itemID="55da1020-00000589" lastModified="1440357993">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SpawnArea" itemID="55da1020-00000589" lastModified="1440359765">
   <timeline>
     <DOMTimeline name="SpawnArea">
       <layers>
@@ -6,22 +6,19 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
-                  <matrix>
-                    <Matrix tx="-19" ty="-140"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#FFFF00" alpha="0"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!380 2800|12359 2800!12359 2800|12359 16399!12359 16399|380 16399!380 16399|380 2800"/>
+                    <Edge fillStyle1="1" edges="!0 0|11319 0!11319 0|11319 13599!11319 13599|0 13599!0 13599|0 0"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="City" name="city_0" selected="true">
+                <DOMSymbolInstance libraryItemName="City" name="city_0">
                   <matrix>
-                    <Matrix tx="108.95" ty="62.45"/>
+                    <Matrix tx="123.95" ty="58.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -29,7 +26,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="City" name="city_1">
                   <matrix>
-                    <Matrix tx="494.95" ty="62.45"/>
+                    <Matrix tx="456.95" ty="58.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

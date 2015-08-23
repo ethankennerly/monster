@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440355906">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440359770">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
@@ -107,7 +107,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="SpawnArea" name="spawnArea" selected="true">
                   <matrix>
-                    <Matrix tx="17.5" ty="144.05"/>
+                    <Matrix tx="29.5" ty="144.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
