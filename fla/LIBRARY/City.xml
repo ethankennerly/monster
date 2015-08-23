@@ -1,22 +1,130 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="City" itemID="55d8a07e-00000059" linkageExportForAS="true" linkageClassName="City" lastModified="1440261807">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="City" itemID="55d8a07e-00000059" linkageExportForAS="true" linkageClassName="City" lastModified="1440296355" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="City">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="city" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMSymbolInstance libraryItemName="01_dirt">
                   <matrix>
-                    <Matrix a="0.888885498046875" d="0.888885498046875" tx="-312.85" ty="-248"/>
+                    <Matrix tx="18.5" ty="-5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01">
+                  <matrix>
+                    <Matrix tx="3" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01">
+                  <matrix>
+                    <Matrix tx="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01">
+                  <matrix>
+                    <Matrix tx="20" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01">
+                  <matrix>
+                    <Matrix tx="-2" ty="-15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01">
+                  <matrix>
+                    <Matrix tx="-13" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_adobe_01">
+                  <matrix>
+                    <Matrix tx="-16" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01">
+                  <matrix>
+                    <Matrix tx="12" ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01">
+                  <matrix>
+                    <Matrix tx="2" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_pire_01">
+                  <matrix>
+                    <Matrix tx="-25" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_dirt">
+                  <matrix>
+                    <Matrix tx="-23" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="01_dirt">
+                  <matrix>
+                    <Matrix tx="-22" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bounds" color="#FFFF00" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-64" ty="-32"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#CCCCCC"/>
+                      <SolidColor color="#594A3A" alpha="0.00784313725490196"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!6679 5220|7399 5220!7399 5220|7399 5940!7399 5940|6679 5940!6679 5940|6679 5220"/>
+                    <Edge fillStyle0="1" edges="!2560 639|1279 0!1279 0|0 640!0 640|1280 1280!1280 1280|2560 639"/>
+                    <Edge cubics="!2560 639(;2560,639 1279,0 1279,0q2560 639 1279 0);"/>
+                    <Edge cubics="!1279 0(;1279,0 0,640 0,640q1279 0 0 640);"/>
+                    <Edge cubics="!0 640(;0,640 1280,1280 1280,1280q0 640 1280 1280);"/>
+                    <Edge cubics="!1280 1280(;1280,1280 2560,639 2560,639q1280 1280 2560 639);"/>
                   </edges>
                 </DOMShape>
               </elements>

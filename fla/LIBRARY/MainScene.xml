@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440284965">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440296951">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
@@ -8,44 +8,77 @@
               <elements>
                 <DOMDynamicText name="countText" left="439.55" width="63.45" height="25.5" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix tx="-111.55" ty="907.95"/>
+                    <Matrix tx="-319.6" ty="79.75"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>00000</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="Copperplate" fillColor="#D3B999"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="text" selected="true" width="503" height="50" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="text" width="503" height="75.2" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix tx="74.45" ty="829.45"/>
+                    <Matrix tx="77.2" ty="875"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Mother Nature&#xD;Destroy the humans before they ruin you!</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="20" bitmapSize="400" face="Copperplate" fillColor="#FEEECC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMStaticText left="603" width="102" height="22.35" isSelectable="false">
+                <DOMStaticText left="603" width="102" height="20.2" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-381" ty="907.95"/>
+                    <Matrix tx="-589.05" ty="79.75"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>HUMANS</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFF00"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText name="levelText" left="439.55" width="63.45" height="25.5" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="104.5" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="Copperplate" fillColor="#D3B999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMStaticText left="603" width="102" height="20.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-164.95" ty="79.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>level</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="Copperplate" fillColor="#D3B999"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
               </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="help overlay" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -63,7 +96,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="City" name="city_1">
                   <matrix>
-                    <Matrix tx="342.45" ty="285.5"/>
+                    <Matrix tx="486.45" ty="205.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -76,140 +109,11 @@
         <DOMLayer name="land" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="390.45" ty="365.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="262.45" ty="237.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="390.45" ty="237.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="518.45" ty="493.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="262.45" ty="493.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="134.45" ty="493.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="262.45" ty="621.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="262.45" ty="743.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="518.45" ty="237.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="518.45" ty="365.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="390.45" ty="109.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="134.45" ty="109.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="390.45" ty="621.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="390.45" ty="743.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Land" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="262.45" ty="871.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Desert" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="134.45" ty="621.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="background" color="#4F80FF" locked="true" autoNamed="false">
+        <DOMLayer name="background" color="#4F80FF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -218,6 +122,32 @@
                     <Point x="320" y="480"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="9.6" ty="8.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="9.6" ty="843.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
+                  </edges>
+                </DOMShape>
               </elements>
             </DOMFrame>
           </frames>

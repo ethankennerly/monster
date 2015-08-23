@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="01_dirt" itemID="55d92c9a-0000003f" lastModified="1440296090">
+  <timeline>
+    <DOMTimeline name="01_dirt">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets/Layer 3/&amp;#060Group&amp;#062_6" selected="true" blendMode="layer">
+                  <matrix>
+                    <Matrix tx="-11.5" ty="-10.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="5.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.41015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
