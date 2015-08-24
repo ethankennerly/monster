@@ -11,10 +11,10 @@ FEATURES
     Mark expects win animation.
     Sound on kill
     Mark expects to fix one count per kill.
+    Alan expects to instruct to draw instead of tap.
 
 TODO
-    Alan expects to understand can draw instead of tap.
-    Mark expects to speed up spawn rate at higher level even when more humans.
+    Mark expects to speed up spawn rate at higher level even when more humans and can lose. (+Torri)
     Forest tiles to defend:  Tap turns forest to desert.   Random tile.
     Loop of shouting, that increases volume with more humans.
     Shuffle sound.  Melody on kill.
@@ -201,3 +201,15 @@ Sun Aug 23 11:26:46 PDT 2015
     Jennifer may expect to fit into screen.
 
 From center.  Origin at center, so left and right of 0.  Up and down of 0.
+
+
+Sun Aug 23 16:28:27 PDT 2015
+
+
+Sun Aug 23 16:51:14 PDT 2015
+
+forest:
+    forests grid
+    grid 2
+        sum 1 only:  count 1
+

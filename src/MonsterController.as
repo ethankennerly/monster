@@ -25,13 +25,18 @@ package
             {
                 var name:String = model.cityNames[c];
                 View.removeChild(view.spawnArea[name]);
-                // View.setVisible(view.spawnArea[name], false);
             }
             View.initAnimation(view.win);
+            View.initAnimation(view.lose);
         }
 
         public function select(event:*):void
         {
+            if (model.result == -1)
+            {
+                model.restart();
+                return;
+            }
             var target:* = View.currentTarget(event);
             var isExplosion:Boolean = model.select(View.getName(target));
             if (isExplosion)
@@ -70,9 +75,13 @@ package
         internal function update(deltaSeconds:Number):void
         {
             model.update(deltaSeconds);
-            if (model.isWinNow)
+            if (1 === model.resultNow)
             {
                 View.start(view.win);
+            }
+            else if (-1 === model.resultNow)
+            {
+                View.start(view.lose);
             }
             Controller.visit(view, model.changes, createCity);
             updateText(model.result);

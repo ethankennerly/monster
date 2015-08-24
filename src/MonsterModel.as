@@ -10,10 +10,12 @@
         internal var length:int;
         internal var changes:Object;
         internal var population:int;
+        internal var health:int;
         internal var represents:Object;
         internal var result:int = 0;
+        internal var resultNow:int = 0;
         internal var selectCount:int = 0;
-        internal var isWinNow:Boolean;
+        internal var selected:int = 0;
 
         private var vacancy:int;
         private var cellWidth:int;
@@ -32,6 +34,18 @@
         {
         }
 
+        internal function restart():void
+        {
+            resultNow = 0;
+            result = 0;
+            periodBase = 120.0;
+            period = 2.0;
+            level = 1;
+            selectCount = 0;
+            clearGrid();
+            randomlyPlace(grid);
+        }
+
         private function initGrid(grid:Array, cellWidth:int, cellHeight:int):void
         {
             this.cellWidth = Math.ceil(cellWidth);
@@ -42,14 +56,7 @@
             this.cellHeight = cellHeight;
             widthInCells = Math.floor(width / cellWidth);
             heightInCells = Math.floor(height / cellHeight);
-            grid.length = 0;
-            for (var row:int = 0; row < heightInCells; row++)
-            {
-                for (var column:int = 0; column < widthInCells; column++)
-                {
-                    grid.push(0);
-                }
-            }
+            clearGrid();
             gridPreviously = grid.concat();
         }
 
@@ -69,7 +76,7 @@
                 grid[row * widthInCells + column] = 1;
             }
             length = grid.length;
-            trace(grid);
+            // trace(grid);
             return grid;
         }
 
@@ -78,7 +85,7 @@
             this.represents = represents;
             cityNames = Model.keys(represents.spawnArea, "city");
             grid = toGrid(represents, cityNames);
-            if (sum(grid) <= 0)
+            if (count(grid, 1) <= 0)
             {
                 randomlyPlace(grid);
             }
@@ -151,6 +158,7 @@
 
         private function grow(grid:Array):Array
         {
+            // trace("grow:   " + grid);
             var gridNext:Array = grid.concat();
             for (var row:int = 0; row < heightInCells; row++)
             {
@@ -202,7 +210,8 @@
         internal function update(deltaSeconds:Number):void
         {
             accumulated += deltaSeconds;
-            population = sum(grid);
+            population = count(grid, 1);
+            health = count(grid, 2);
             vacancy = grid.length - population;
             win();
             if (period <= accumulated) 
@@ -227,12 +236,15 @@
             gridPreviously = grid.concat();
         }
 
-        private function sum(counts:Array):int
+        private function count(counts:Array, value:int):int
         {
             var sum:int = 0;
             for (var c:int = 0; c < counts.length; c++)
             {
-                sum += counts[c];
+                if (value === counts[c])
+                {
+                    sum += 1
+                }
             }
             return sum;
         }
@@ -246,12 +258,12 @@
         private function randomlyPlace(grid:Array):void
         {
             var attemptMax:int = 128;
-            for (var attempt:int = 0; sum(grid) < startingPlaces && attempt < attemptMax; attempt++)
+            for (var attempt:int = 0; count(grid, 1) < startingPlaces && attempt < attemptMax; attempt++)
             {
                 var index:int = Math.floor(Math.random() * (grid.length - 4)) + 2;
                 grid[index] = 1;
             }
-            startingPlaces += 0.125;
+            // startingPlaces += 0.125;
             // 0.25;
         }
 
@@ -268,14 +280,14 @@
             var period:Number = 999999.0;
             if (population <= 0)
             {
-                periodBase = Math.max(5, periodBase * 0.9);
+                periodBase = Math.max(3, periodBase * 0.9);
                 period = 2.0 + 3.0 / level;
                 accumulated = 0;
                 // periodBase * 0.05;
             }
             else if (1 <= vacancy)
             {
-                var ratio:Number = population / vacancy;
+                var ratio:Number = Math.pow(population, 0.25) / grid.length;
                 var exponent:Number = 1.0;
                 // 0.75;
                 // 0.25;
@@ -287,10 +299,10 @@
             return period;
         }
 
-        private function win():Boolean
+        private function win():int
         {
-            isWinNow = result !== 1;
-            if (vacancy <= 0)
+            resultNow = result === 0 ? 0 : result;
+            if (vacancy <= 0 || health <= 0)
             {
                 result = -1;
             }
@@ -302,8 +314,8 @@
             {
                 result = 0;
             }
-            isWinNow = isWinNow && result === 1;
-            return isWinNow;
+            resultNow = resultNow === 0 ? result : 0;
+            return resultNow;
         }
 
         internal function select(name:String):Boolean
@@ -312,7 +324,7 @@
             var row:int = parseInt(parts[1]);
             var column:int = parseInt(parts[2]);
             var result:int = selectCell(row, column);
-            population = sum(grid);
+            population = count(grid, 1);
             var isExplosion:Boolean = 1 === result;
             if (isExplosion && 0 <= population)
             {
@@ -331,7 +343,20 @@
                 selectCount++;
                 grid[index] = 0;
             }
+            // trace("select: " + grid);
             return was;
+        }
+
+        internal function clearGrid():void
+        {
+            grid.length = 0;
+            for (var row:int = 0; row < heightInCells; row++)
+            {
+                for (var column:int = 0; column < widthInCells; column++)
+                {
+                    grid.push(2);
+                }
+            }
         }
     }
 }
