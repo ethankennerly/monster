@@ -74,7 +74,7 @@
             }
             else
             {
-                text = "Mother Nature:\nDraw to destroy humans!  Do not draw on forests.";
+                text = "Mother Nature:\nDraw to destroy humans!\nDo not draw on forests.";
             }
             View.setText(view.text, text);
         }

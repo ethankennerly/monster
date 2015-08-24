@@ -115,19 +115,25 @@
                 if (0 < row)
                 {
                     var up:int = (row-1) * widthInCells + column;
-                    gridNext[up] = 1;
-                    if (0 < column + offset)
+                    if (0 <= up)
                     {
-                        gridNext[up + columnOffset] = 1;
+                        gridNext[up] = 1;
+                        if (0 <= column + columnOffset)
+                        {
+                            gridNext[up + columnOffset] = 1;
+                        }
                     }
                 }
                 if (row < heightInCells - 1)
                 {
                     var down:int = (row+1) * widthInCells + column;
-                    gridNext[down] = 1;
-                    if (column + offset < widthInCells - 1)
+                    if (down < length)
                     {
-                        gridNext[down + columnOffset] = 1;
+                        gridNext[down] = 1;
+                        if (column + columnOffset < widthInCells - 1)
+                        {
+                            gridNext[down + columnOffset] = 1;
+                        }
                     }
                 }
             }
@@ -291,14 +297,14 @@
             var period:Number = 999999.0;
             if (population <= 0)
             {
-                periodBase = Math.max(3, periodBase * 0.9);
+                periodBase = Math.max(3, periodBase * 0.95);
                 period = 2.0 + 3.0 / level;
                 accumulated = 0;
                 // periodBase * 0.05;
             }
             else if (1 <= vacancy)
             {
-                var ratio:Number = Math.pow(population, 0.25) / grid.length;
+                var ratio:Number = Math.pow(population, 0.325) / grid.length;
                 var exponent:Number = 1.0;
                 // 0.75;
                 // 0.25;
