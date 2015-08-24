@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000000" width="640" height="960" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" objectsSnapTo="false" vanishingPoint3DX="320" vanishingPoint3DY="480" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
           <DOMFolderItem name="Assets" itemID="55da1dd5-00000021" isExpanded="true"/>
           <DOMFolderItem name="FlashAICB Assets" itemID="55d928f0-00000010"/>
@@ -6,8 +6,8 @@
           <DOMFolderItem name="sounds" itemID="55da1df4-00000027" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
           <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
+          <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
      </fonts>
      <media>
           <DOMSoundItem name="sounds/crowd.aiff" itemID="55da505c-0000007d" linkageExportForAS="true" linkageClassName="crowd" sourceExternalFilepath="./LIBRARY/sounds/crowd.aiff" sourceLastImported="1440310918" sourcePlatform="macintosh" externalFileSize="2322376" href="sounds/crowd.aiff" soundDataHRef="M 5 1440357894.dat" format="44kHz 16bit Mono" sampleCount="532479" dataLength="1064958"/>
@@ -30,7 +30,7 @@
           <Include href="Assets/01_forest_dirt_01.xml" loadImmediate="false" itemID="55da35b5-0000005c" lastModified="1440363957"/>
           <Include href="Assets/01_forest_tree_01.xml" loadImmediate="false" itemID="55da35be-0000005f" lastModified="1440363966"/>
           <Include href="Assets/01_forest_tree_02.xml" loadImmediate="false" itemID="55da35c5-00000060" lastModified="1440363973"/>
-          <Include href="Assets/Background.xml" itemID="55da656b-00000254" lastModified="1440377487"/>
+          <Include href="Assets/Background.xml" itemID="55da656b-00000254" lastModified="1440378537"/>
           <Include href="Assets/Forest.xml" itemID="55da3451-00000045" lastModified="1440364912"/>
           <Include href="Assets/winBackground.xml" loadImmediate="false" itemID="55da541a-000000bc" lastModified="1440371748"/>
           <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440371566"/>
@@ -38,7 +38,7 @@
           <Include href="dust.xml" loadImmediate="false" itemID="55da5c1c-000001b8" lastModified="1440373844"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
           <Include href="loseAnimation.xml" itemID="55da5792-0000013e" lastModified="1440377345"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440377554"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440378545"/>
           <Include href="mask.xml" loadImmediate="false" itemID="55da4049-000002cd" lastModified="1440366665"/>
           <Include href="SpawnArea.xml" loadImmediate="false" itemID="55da1020-00000589" lastModified="1440359765"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440373252"/>
@@ -329,12 +329,27 @@
           </swatchList>
      </swatchLists>
      <persistentData>
+          <PD n="com.air.artemis.airdest" v="monster.apk"/>
+          <PD n="com.air.artemis.included.count" v="0"/>
+          <PD n="com.air.oldTargetPlatform" v="Android"/>
+          <PD n="com.air.artemis.swfdir" v="/Users/torri/workspace/monster/"/>
           <PD n="ane.tmp.unzipped.folder" v="/Users/ethan/Library/Caches/TemporaryItems/Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="com.air.artemis.pubair" v="true"/>
+          <PD n="com.air.artemis.flapath" v="/Users/torri/workspace/monster/fla/monster.xfl"/>
           <PD n="com.air.sdk.path"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
+          <PD n="com.air.artemis.proctype" v="arm"/>
+          <PD n="com.air.agistri.runtimetype" v="share"/>
+          <PD n="com.air.agistri.publishtype" v="release"/>
+          <PD n="com.air.agistri.hostip" v="Default"/>
+          <PD n="com.air.artemis.basename" v="monster"/>
+          <PD n="com.adobe.android.ignore_cdata" v="false"/>
           <PD n="com.adobe.flash.anemoi.output.type" v="ipa"/>
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="66106" publishTime="1440378260" publishDebug="true"/>
+          <PublishItem publishSize="66104" publishTime="1440377968" publishDebug="true"/>
           <PublishItem publishSize="65891" publishTime="1440377840" publishDebug="true"/>
           <PublishItem publishSize="65882" publishTime="1440377797" publishDebug="true"/>
           <PublishItem publishSize="65694" publishTime="1440377765" publishDebug="true"/>
@@ -353,7 +368,5 @@
           <PublishItem publishSize="267516" publishTime="1440375858" publishDebug="true"/>
           <PublishItem publishSize="267282" publishTime="1440375206" publishDebug="true"/>
           <PublishItem publishSize="267525" publishTime="1440375142" publishDebug="true"/>
-          <PublishItem publishSize="267527" publishTime="1440375009" publishDebug="true"/>
-          <PublishItem publishSize="267432" publishTime="1440374925" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

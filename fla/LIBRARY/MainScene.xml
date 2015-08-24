@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440377554" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MainScene" itemID="55d89e39-00000005" linkageExportForAS="true" linkageClassName="MainScene" lastModified="1440378545" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="MainScene">
       <layers>
-        <DOMLayer name="help" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="help" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -43,7 +43,7 @@
                     <DOMTextRun>
                       <characters>humans</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.733333333333333" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.729411764705882" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -69,7 +69,7 @@
                     <DOMTextRun>
                       <characters>level</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.733333333333333" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" alpha="0.729411764705882" size="32" bitmapSize="640" face="Copperplate" fillColor="#FEEECC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -78,10 +78,20 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="overlay" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="overlay" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 16700|12800 16700!12800 16700|12800 19200!12800 19200|0 19200!0 19200|0 16700"/>
+                  </edges>
+                </DOMShape>
                 <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="9.6" ty="8.25"/>
@@ -95,25 +105,15 @@
                     <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
                   </edges>
                 </DOMShape>
-                <DOMShape isDrawingObject="true">
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor alpha="0.368627450980392"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!0 16700|12800 16700!12800 16700|12800 19200!12800 19200|0 19200!0 19200|0 16700"/>
-                  </edges>
-                </DOMShape>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="lose" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="lose" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="loseAnimation" name="lose" selected="true">
+                <DOMSymbolInstance libraryItemName="loseAnimation" name="lose">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>
@@ -122,7 +122,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="spawnArea" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="spawnArea" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -138,11 +138,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="win" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="win" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="winAnimation" name="win" selected="true">
+                <DOMSymbolInstance libraryItemName="winAnimation" name="win">
                   <transformationPoint>
                     <Point x="320" y="480"/>
                   </transformationPoint>
@@ -160,19 +160,6 @@
                     <Point x="320" y="480"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMShape isDrawingObject="true">
-                  <matrix>
-                    <Matrix tx="9.6" ty="8.25"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor alpha="0.368627450980392"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!-192 -165|12608 -165!12608 -165|12608 2335!12608 2335|-192 2335!-192 2335|-192 -165"/>
-                  </edges>
-                </DOMShape>
                 <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix tx="9.6" ty="843.25"/>

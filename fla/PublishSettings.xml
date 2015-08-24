@@ -51,7 +51,7 @@
     <WindowMode>0</WindowMode>
     <DisplayMenu>1</DisplayMenu>
     <DeviceFont>0</DeviceFont>
-    <TemplateFileName>/Users/ethan/Library/Application Support/Adobe/Flash CC 2015/en_US/Configuration/HTML/Default.html</TemplateFileName>
+    <TemplateFileName>/Users/torri/Library/Application Support/Adobe/Flash CC 2015/en_US/Configuration/HTML/Default.html</TemplateFileName>
     <showTagWarnMsg>1</showTagWarnMsg>
   </PublishHtmlProperties>
   <PublishFlashProperties enabled="true">
@@ -68,7 +68,7 @@
     <EventCompress>7</EventCompress>
     <OverrideSounds>0</OverrideSounds>
     <Version>28</Version>
-    <ExternalPlayer>FlashPlayer17.0</ExternalPlayer>
+    <ExternalPlayer>android_17_0</ExternalPlayer>
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>

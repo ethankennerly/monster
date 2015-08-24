@@ -40,4 +40,8 @@
     <array><string>1</string><string>2</string></array>
 ]]></InfoAdditions>
     </iPhone>
+    <android>
+        <manifestAdditions><![CDATA[<manifest></manifest>]]></manifestAdditions>
+    </android>
+    <versionLabel></versionLabel>
 </application>

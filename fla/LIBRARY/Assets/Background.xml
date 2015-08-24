@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Background" itemID="55da656b-00000254" linkageExportForAS="true" linkageClassName="Background" lastModified="1440377487" lastUniqueIdentifier="44">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Background" itemID="55da656b-00000254" linkageExportForAS="true" linkageClassName="Background" lastModified="1440378537" lastUniqueIdentifier="44">
   <timeline>
-    <DOMTimeline name="Background" currentFrame="24">
+    <DOMTimeline name="Background">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="25" keyMode="9728">
               <elements>
@@ -11,7 +11,7 @@
                     <FillStyle index="1">
                       <RadialGradient>
                         <matrix>
-                          <Matrix a="0.7042236328125" d="0.7042236328125" tx="320.45" ty="520.45"/>
+                          <Matrix a="0.7042236328125" d="0.7042236328125" tx="320" ty="480"/>
                         </matrix>
                         <GradientEntry alpha="0" ratio="0"/>
                         <GradientEntry alpha="0.227450980392157" ratio="1"/>
@@ -19,14 +19,14 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!9 809|12809 809!12809 809|12809 20009!12809 20009|9 20009!9 20009|9 809"/>
+                    <Edge fillStyle1="1" edges="!0 0|12800 0!12800 0|12800 19200!12800 19200|0 19200!0 19200|0 0"/>
                   </edges>
                 </DOMShape>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="background1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="background1" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
               <elements>
