@@ -6,8 +6,8 @@
           <DOMFolderItem name="sounds" itemID="55da1df4-00000027" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
           <DOMFontItem name="Arial" itemID="55d90051-00000026" font="ArialMT" size="0" id="1" sourceLastImported="1440284737" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Copperplate" itemID="55d93291-00000021" font="Copperplate" size="0" id="2" sourceLastImported="1440297617" embedRanges="5"/>
      </fonts>
      <media>
           <DOMSoundItem name="sounds/crowd.aiff" itemID="55da505c-0000007d" linkageExportForAS="true" linkageClassName="crowd" sourceExternalFilepath="./LIBRARY/sounds/crowd.aiff" sourceLastImported="1440310918" sourcePlatform="macintosh" externalFileSize="2322376" href="sounds/crowd.aiff" soundDataHRef="M 5 1440357894.dat" format="44kHz 16bit Mono" sampleCount="532479" dataLength="1064958"/>
@@ -30,20 +30,20 @@
           <Include href="Assets/01_forest_dirt_01.xml" loadImmediate="false" itemID="55da35b5-0000005c" lastModified="1440363957"/>
           <Include href="Assets/01_forest_tree_01.xml" loadImmediate="false" itemID="55da35be-0000005f" lastModified="1440363966"/>
           <Include href="Assets/01_forest_tree_02.xml" loadImmediate="false" itemID="55da35c5-00000060" lastModified="1440363973"/>
-          <Include href="Assets/Background.xml" loadImmediate="false" itemID="55d89e94-0000000a" lastModified="1440370584"/>
+          <Include href="Assets/Background.xml" itemID="55da656b-00000254" lastModified="1440377487"/>
           <Include href="Assets/Forest.xml" itemID="55da3451-00000045" lastModified="1440364912"/>
           <Include href="Assets/winBackground.xml" loadImmediate="false" itemID="55da541a-000000bc" lastModified="1440371748"/>
           <Include href="City.xml" itemID="55d8a07e-00000059" lastModified="1440371566"/>
           <Include href="Desert.xml" itemIcon="1" loadImmediate="false" itemID="55d8a010-0000004d" lastModified="1440289085"/>
           <Include href="dust.xml" loadImmediate="false" itemID="55da5c1c-000001b8" lastModified="1440373844"/>
           <Include href="Land.xml" itemIcon="1" loadImmediate="false" itemID="55d89f4b-00000012" lastModified="1440289015"/>
-          <Include href="loseAnimation.xml" itemID="55da5792-0000013e" lastModified="1440374133"/>
-          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440374179"/>
+          <Include href="loseAnimation.xml" itemID="55da5792-0000013e" lastModified="1440377345"/>
+          <Include href="MainScene.xml" itemID="55d89e39-00000005" lastModified="1440377554"/>
           <Include href="mask.xml" loadImmediate="false" itemID="55da4049-000002cd" lastModified="1440366665"/>
           <Include href="SpawnArea.xml" loadImmediate="false" itemID="55da1020-00000589" lastModified="1440359765"/>
           <Include href="TestScene.xml" itemID="55d8b652-00000011" lastModified="1440373252"/>
           <Include href="win_forest.xml" loadImmediate="false" itemID="55da42ac-00000327" lastModified="1440372308"/>
-          <Include href="winAnimation.xml" itemID="55da3b53-00000189" lastModified="1440372007"/>
+          <Include href="winAnimation.xml" itemID="55da3b53-00000189" lastModified="1440377838"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -335,25 +335,25 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="266214" publishTime="1440372758" publishDebug="true"/>
-          <PublishItem publishSize="266235" publishTime="1440372726" publishDebug="true"/>
-          <PublishItem publishSize="266067" publishTime="1440372456" publishDebug="true"/>
-          <PublishItem publishSize="266070" publishTime="1440372314" publishDebug="true"/>
-          <PublishItem publishSize="268469" publishTime="1440372274" publishDebug="true"/>
-          <PublishItem publishSize="279512" publishTime="1440372013" publishDebug="true"/>
-          <PublishItem publishSize="279557" publishTime="1440371907" publishDebug="true"/>
-          <PublishItem publishSize="279337" publishTime="1440371784" publishDebug="true"/>
-          <PublishItem publishSize="279716" publishTime="1440371761" publishDebug="true"/>
-          <PublishItem publishSize="279322" publishTime="1440371573" publishDebug="true"/>
-          <PublishItem publishSize="279285" publishTime="1440371497" publishDebug="true"/>
-          <PublishItem publishSize="278991" publishTime="1440370859" publishDebug="true"/>
-          <PublishItem publishSize="279025" publishTime="1440370815" publishDebug="true"/>
-          <PublishItem publishSize="273355" publishTime="1440370738" publishDebug="true"/>
-          <PublishItem publishSize="273355" publishTime="1440370598" publishDebug="true"/>
-          <PublishItem publishSize="270977" publishTime="1440370387" publishDebug="true"/>
-          <PublishItem publishSize="278445" publishTime="1440368434" publishDebug="true"/>
-          <PublishItem publishSize="278449" publishTime="1440368405" publishDebug="true"/>
-          <PublishItem publishSize="278466" publishTime="1440368362" publishDebug="true"/>
-          <PublishItem publishSize="245542" publishTime="1440368077" publishDebug="true"/>
+          <PublishItem publishSize="65891" publishTime="1440377840" publishDebug="true"/>
+          <PublishItem publishSize="65882" publishTime="1440377797" publishDebug="true"/>
+          <PublishItem publishSize="65694" publishTime="1440377765" publishDebug="true"/>
+          <PublishItem publishSize="267412" publishTime="1440377580" publishDebug="true"/>
+          <PublishItem publishSize="267410" publishTime="1440377500" publishDebug="true"/>
+          <PublishItem publishSize="267633" publishTime="1440377157" publishDebug="true"/>
+          <PublishItem publishSize="267634" publishTime="1440376889" publishDebug="true"/>
+          <PublishItem publishSize="267751" publishTime="1440376617" publishDebug="true"/>
+          <PublishItem publishSize="267738" publishTime="1440376294" publishDebug="true"/>
+          <PublishItem publishSize="258906" publishTime="1440376248" publishDebug="true"/>
+          <PublishItem publishSize="267733" publishTime="1440376192" publishDebug="true"/>
+          <PublishItem publishSize="267672" publishTime="1440376121" publishDebug="true"/>
+          <PublishItem publishSize="267665" publishTime="1440376110" publishDebug="true"/>
+          <PublishItem publishSize="267671" publishTime="1440376087" publishDebug="true"/>
+          <PublishItem publishSize="267661" publishTime="1440376039" publishDebug="true"/>
+          <PublishItem publishSize="267516" publishTime="1440375858" publishDebug="true"/>
+          <PublishItem publishSize="267282" publishTime="1440375206" publishDebug="true"/>
+          <PublishItem publishSize="267525" publishTime="1440375142" publishDebug="true"/>
+          <PublishItem publishSize="267527" publishTime="1440375009" publishDebug="true"/>
+          <PublishItem publishSize="267432" publishTime="1440374925" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

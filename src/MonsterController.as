@@ -1,4 +1,4 @@
-package 
+﻿package 
 {
     /**
      * Portable.  Independent of Flash.
@@ -28,12 +28,15 @@ package
             }
             View.initAnimation(view.win);
             View.initAnimation(view.lose);
+            View.initAnimation(view.background);
         }
 
         public function select(event:*):void
         {
             if (model.result == -1)
             {
+
+                View.gotoFrame(view.background,1);
                 model.restart();
                 return;
             }
@@ -82,6 +85,7 @@ package
             else if (-1 === model.resultNow)
             {
                 View.start(view.lose);
+                View.start(view.background);
             }
             Controller.visit(view, model.changes, createCity);
             updateText(model.result);
