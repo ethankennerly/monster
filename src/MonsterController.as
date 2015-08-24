@@ -17,8 +17,12 @@
             model = new MonsterModel();
             model.represent(View.represent(view));
             classNameCounts = {
-                "City": model.length,
                 "Explosion": model.length
+            }
+            for (var g:int = 1; g < model.gridClassNames.length; g++)
+            {
+                var className:String = model.gridClassNames[g];
+                classNameCounts[className] = model.length;
             }
             pools = Pool.construct(View.construct, classNameCounts);
             for (var c:int = 0; c < model.cityNames.length; c++)
@@ -62,15 +66,15 @@
             var text:String;
             if (result == 1) 
             {
-                text = "YOU WIN!  Humans have been obliterated ... for now.";
+                text = "YOU WIN!  You obliterated all humans ... for now.";
             }
             else if (result == -1)
             {
-                text = "Humans have domesticated the entire planet.";
+                text = "Humans domesticated all the forests.";
             }
             else
             {
-                text = "Mother Nature:\nDestroy all humans before they ruin you!\nDraw to destroy cities.";
+                text = "Mother Nature:\nDraw to destroy humans!  Do not draw on forests.";
             }
             View.setText(view.text, text);
         }
@@ -87,11 +91,11 @@
                 View.start(view.lose);
                 View.start(view.background);
             }
-            Controller.visit(view, model.changes, createCity);
+            Controller.visit(view, model.changes, create);
             updateText(model.result);
         }
        
-        function randomRange(minNum:Number, maxNum:Number):Number 
+        function randomRange(minNum:Number, maxNum:Number):Number
         {
             return (Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
         }
@@ -99,20 +103,27 @@
         /**
          * Would be more flexible to add child to whichever parent.
          */
-        internal function createCity(child:*, key:String, change:*):Object
+        internal function create(child:*, key:String, change:*):Object
         {
             if (child)
             {
             }
             else
             {
-                if (Controller.isObject(change) && change.x && key.indexOf("city") === 0)
+                if (Controller.isObject(change) && !isNaN(change.x))
                 {
-                    child = pools["City"].next();
-                    View.gotoFrame(child, randomRange(1, child.totalFrames));
-                    var parent = view.spawnArea;
-                    View.addChild(parent, child, key);
-                    View.listenToOverAndDown(child, "select", this);
+                    for (var g:int = 1; g < model.gridClassNames.length; g++)
+                    {
+                        var className:String = model.gridClassNames[g];
+                        if (key.indexOf(className) === 0)
+                        {
+                            child = pools[className].next();
+                            View.gotoFrame(child, randomRange(1, child.totalFrames));
+                            var parent = view.spawnArea;
+                            View.addChild(parent, child, key);
+                            View.listenToOverAndDown(child, "select", this);
+                        }
+                    }
                 }
             }
             return child;

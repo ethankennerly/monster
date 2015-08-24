@@ -16,6 +16,7 @@
         internal var resultNow:int = 0;
         internal var selectCount:int = 0;
         internal var selected:int = 0;
+        internal var gridClassNames:Array = [null, "City", "Forest"];
 
         private var vacancy:int;
         private var cellWidth:int;
@@ -42,7 +43,7 @@
             period = 2.0;
             level = 1;
             selectCount = 0;
-            clearGrid();
+            clearGrid(2);
             randomlyPlace(grid);
         }
 
@@ -56,7 +57,7 @@
             this.cellHeight = cellHeight;
             widthInCells = Math.floor(width / cellWidth);
             heightInCells = Math.floor(height / cellHeight);
-            clearGrid();
+            clearGrid(0);
             gridPreviously = grid.concat();
         }
 
@@ -85,6 +86,7 @@
             this.represents = represents;
             cityNames = Model.keys(represents.spawnArea, "city");
             grid = toGrid(represents, cityNames);
+            restart();
             if (count(grid, 1) <= 0)
             {
                 randomlyPlace(grid);
@@ -189,17 +191,26 @@
                         {
                             changes.spawnArea = {};
                         }
-                        var name:String = "city_" + row + "_" + column;
-                        count++;
-                        if (1 == grid[index]) 
+                        for (var g:int = 1; g < gridClassNames.length; g++)
                         {
-                            changes.spawnArea[name] = {x: cellWidth * column + cellWidth * 0.5 + offsetWidth(row),
-                                y: cellHeight * row + cellHeight * 0.5,
-                                visible: true};
-                        }
-                        else
-                        {
-                            changes.spawnArea[name] = {visible: false};
+                            var className:String = gridClassNames[g];
+                            var isChanged:Boolean = g === grid[index] || g === gridPreviously[index];
+                            if (isChanged)
+                            {
+                                var name:String = className + "_" + row + "_" + column;
+                                count++;
+                                if (g === grid[index]) 
+                                {
+                                    changes.spawnArea[name] = {
+                                        x: cellWidth * column + cellWidth * 0.5 + offsetWidth(row),
+                                        y: cellHeight * row + cellHeight * 0.5,
+                                        visible: true};
+                                }
+                                else
+                                {
+                                    changes.spawnArea[name] = {visible: false};
+                                }
+                            }
                         }
                     }
                 }
@@ -338,23 +349,26 @@
         {
             var index:int = row * widthInCells + column;
             var was:int = grid[index];
-            if (1 == was)
+            if (0 !== was)
             {
-                selectCount++;
+                if (1 == was)
+                {
+                    selectCount++;
+                }
                 grid[index] = 0;
             }
             // trace("select: " + grid);
             return was;
         }
 
-        internal function clearGrid():void
+        internal function clearGrid(value:int):void
         {
             grid.length = 0;
             for (var row:int = 0; row < heightInCells; row++)
             {
                 for (var column:int = 0; column < widthInCells; column++)
                 {
-                    grid.push(2);
+                    grid.push(value);
                 }
             }
         }
